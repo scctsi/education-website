@@ -1,0 +1,58 @@
+section.main-content {
+  @include span-columns(8);
+
+  h2 {
+    i {
+      color: #990000;
+      margin-right: 5px;
+    }
+
+    padding: 8px 10px;
+    background: #eee;
+    font-size: 18px;
+    letter-spacing: 2px; 
+    color: #666;
+    font-weight: normal;
+    margin-bottom: 30px;
+  }
+
+  .search {
+    height: 200px;
+    width: 100%;
+    background: url(../images/search-background.jpg);
+    position: relative;
+
+    form {
+      position: absolute;
+      top: 45%;
+      width: 562px;
+      left: 25px;
+
+      .search-input {
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.35);
+        border-radius: 5px;
+      }
+
+      input {
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: none;
+        width: 100%;
+        font-family: $font-stack;
+        font-size: 18px;
+        color: #000;
+        border: 5px solid #eee;
+      }
+    }
+
+    h3 {
+      background: #fff;
+      font-size: 18px;
+      color: #666;
+      font-weight: normal;
+      padding: 5px 10px;
+    }
+
+  }
+}

@@ -5,7 +5,7 @@
 @import "helpers/placeholders";
  
 // Base stuff
-@import "base/reset";
+// @import "base/reset";
 @import "base/typography";
 
 // Bourbon + Neat
@@ -22,6 +22,7 @@
 // Components and modules
 
 // Page-specific stylesheets
+@import "pages/home";
  
 // Themes
 

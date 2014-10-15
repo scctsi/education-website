@@ -1,0 +1,62 @@
+aside {
+  font-size: 13px;
+  color: #000;
+  @include span-columns(4);
+
+  h2 {
+    padding: 5px 10px;
+    background: #eee;
+    font-size: 22px;
+    letter-spacing: 2px; 
+    color: #666;
+    font-weight: normal;
+    margin-bottom: 30px;
+  }
+
+  h3 {
+    padding: 5px 0px;
+    font-size: 18px;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    font-weight: normal;
+    margin-bottom: 5px;
+  }
+
+  ul {
+    margin-bottom: 15px;
+    span.date {
+      display: block;
+      font-weight: 700;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+  }
+
+  figure {
+    position: relative;
+  
+    img {
+      width: 100%;
+    }
+
+    figcaption {
+      color: #666;
+    }
+
+    .watch-video {
+      position: absolute;
+      top: 35px;
+      left: 70px;
+      padding: 10px;
+      background: #eee;
+      opacity: 0.9;
+      border-radius: 30px;
+
+      i {
+        margin-left: 5px;
+      }
+    }
+  }
+}

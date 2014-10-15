@@ -1,0 +1,151 @@
+/*Footer > Social*/
+#site-footer
+{
+	height: 100px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#footer-social
+{
+	margin: 0 auto;
+	width: 960px;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+#footer-social h3
+{
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#footer-social h4
+{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#footer-social form#newsletter-signup
+{
+	float: left;
+}
+
+#footer-social #newsletter-email
+{
+	background: #FFFFFF;
+	border: none;
+	border-radius: 5px;
+	padding: 0px 1px 5px 5px;
+	margin-top: 15px;
+	width: 265px;
+}
+
+#footer-social form#newsletter-signup input.email
+{
+	background: #FFFFFF;
+	font-size: 12px;
+	font-family: Ubuntu, sans-serif;
+	border: none;
+	border-radius: 5px;
+	padding: 5px;
+	width: 150px;
+}
+
+#footer-social form#newsletter-signup input.button
+{
+	background: #000000;
+	color: #FFFFFF;
+	font-family: Dosis, sans-serif;
+	font-size: 14px;
+	border: none;
+	border-radius: 3px;
+	width: 98px;
+	position: relative;
+}
+
+#footer-social form#newsletter-signup label.option
+{
+	color: #FFFFFF;
+}
+
+#footer-social .footer-social-column
+{
+	float: left;
+	width: 479px;
+	border-right: 1px dotted #CCCCCC;
+	padding-right: 35px;
+}
+
+#footer-social .footer-social-column:last-child
+{
+	border-right: none;
+	padding-right: 0px;
+	width: 444px;
+}
+
+#footer-social .social
+{
+	float: left;
+	padding-top: 22px;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	margin-left: 10px;
+}
+
+#footer-social .social img
+{
+	vertical-align: middle;
+	top: 10px;
+	margin-left: 10px;
+}
+
+#footer-social ul.footer-nav
+{
+	margin-top: 10px;
+	font-family: Arial, sans-serif;
+}
+
+#footer-social ul.footer-nav li
+{
+	float: left;
+	font-size: 16px;
+	padding-right: 5px;
+	margin-right: 5px;
+}
+
+#footer-social ul.footer-nav li a
+{
+	color: #FFFFFF;
+}
+
+#footer-social .footer-social-column .footer-social-nav-column:first-child
+{
+	width: 100px;
+	padding-left: 25px;
+}
+
+#footer-social .footer-social-nav-column
+{
+	float: left;
+	width: 209px;
+	margin-left: 30px;
+}
+
+#footer-social .footer-social-nav-column ul li
+{
+	list-style: none;
+}
+
+#footer-social .footer-social-nav-column ul li a
+{
+	color: #FFFFFF;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+}
+
+#footer-social .footer-social-nav-column ul li a:hover
+{
+	border-bottom: 1px dotted #FFFFFF;
+}

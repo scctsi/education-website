@@ -1,66 +1,269 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-body {
-  line-height: 1;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after {
-  content: '';
-  content: none;
-}
-
-q:before, q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-body {
-  font-family: "PT Sans", Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  color: #fff;
-  background: #fafaf0;
-}
-
-a {
-  text-decoration: none;
-  color: #990000;
-}
-
-a:hover {
-  border-bottom: 1px solid;
-}
-
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+section.content {
+  font-family: "PT Sans", Arial, sans-serif;
+  width: 960px;
+  margin: -15px auto 0px auto;
+  background: #fff;
+  padding: 15px;
+  -moz-box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+}
+section.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Footer > Social*/
+#site-footer {
+  height: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#footer-social {
+  margin: 0 auto;
+  width: 960px;
+  color: #FFFFFF;
+  font-size: 12px;
+}
+
+#footer-social h3 {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+#footer-social h4 {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#footer-social form#newsletter-signup {
+  float: left;
+}
+
+#footer-social #newsletter-email {
+  background: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  padding: 0px 1px 5px 5px;
+  margin-top: 15px;
+  width: 265px;
+}
+
+#footer-social form#newsletter-signup input.email {
+  background: #FFFFFF;
+  font-size: 12px;
+  font-family: Ubuntu, sans-serif;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  width: 150px;
+}
+
+#footer-social form#newsletter-signup input.button {
+  background: #000000;
+  color: #FFFFFF;
+  font-family: Dosis, sans-serif;
+  font-size: 14px;
+  border: none;
+  border-radius: 3px;
+  width: 98px;
+  position: relative;
+}
+
+#footer-social form#newsletter-signup label.option {
+  color: #FFFFFF;
+}
+
+#footer-social .footer-social-column {
+  float: left;
+  width: 479px;
+  border-right: 1px dotted #CCCCCC;
+  padding-right: 35px;
+}
+
+#footer-social .footer-social-column:last-child {
+  border-right: none;
+  padding-right: 0px;
+  width: 444px;
+}
+
+#footer-social .social {
+  float: left;
+  padding-top: 22px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  margin-left: 10px;
+}
+
+#footer-social .social img {
+  vertical-align: middle;
+  top: 10px;
+  margin-left: 10px;
+}
+
+#footer-social ul.footer-nav {
+  margin-top: 10px;
+  font-family: Arial, sans-serif;
+}
+
+#footer-social ul.footer-nav li {
+  float: left;
+  font-size: 16px;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+
+#footer-social ul.footer-nav li a {
+  color: #FFFFFF;
+}
+
+#footer-social .footer-social-column .footer-social-nav-column:first-child {
+  width: 100px;
+  padding-left: 25px;
+}
+
+#footer-social .footer-social-nav-column {
+  float: left;
+  width: 209px;
+  margin-left: 30px;
+}
+
+#footer-social .footer-social-nav-column ul li {
+  list-style: none;
+}
+
+#footer-social .footer-social-nav-column ul li a {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+#footer-social .footer-social-nav-column ul li a:hover {
+  border-bottom: 1px dotted #FFFFFF;
+}
+
+aside {
+  font-size: 13px;
+  color: #000;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+}
+aside:last-child {
+  margin-right: 0;
+}
+aside h2 {
+  padding: 5px 10px;
+  background: #eee;
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: #666;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+aside h3 {
+  padding: 5px 0px;
+  font-size: 18px;
+  border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+aside ul {
+  margin-bottom: 15px;
+}
+aside ul span.date {
+  display: block;
+  font-weight: 700;
+}
+aside ul li {
+  margin-bottom: 5px;
+}
+aside figure {
+  position: relative;
+}
+aside figure img {
+  width: 100%;
+}
+aside figure figcaption {
+  color: #666;
+}
+aside figure .watch-video {
+  position: absolute;
+  top: 35px;
+  left: 70px;
+  padding: 10px;
+  background: #eee;
+  opacity: 0.9;
+  border-radius: 30px;
+}
+aside figure .watch-video i {
+  margin-left: 5px;
+}
+
+section.main-content {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+}
+section.main-content:last-child {
+  margin-right: 0;
+}
+section.main-content h2 {
+  padding: 8px 10px;
+  background: #eee;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #666;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+section.main-content h2 i {
+  color: #990000;
+  margin-right: 5px;
+}
+section.main-content .search {
+  height: 200px;
+  width: 100%;
+  background: url(../images/search-background.jpg);
+  position: relative;
+}
+section.main-content .search form {
+  position: absolute;
+  top: 45%;
+  width: 562px;
+  left: 25px;
+}
+section.main-content .search form .search-input {
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.35);
+  border-radius: 5px;
+}
+section.main-content .search form input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 18px;
+  color: #000;
+  border: 5px solid #eee;
+}
+section.main-content .search h3 {
+  background: #fff;
+  font-size: 18px;
+  color: #666;
+  font-weight: normal;
+  padding: 5px 10px;
 }
