@@ -20,9 +20,11 @@
 @import "layout/sidebar";
 
 // Components and modules
+@import "components/forms";
 
 // Page-specific stylesheets
 @import "pages/home";
+@import "pages/search";
  
 // Themes
 

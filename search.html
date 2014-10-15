@@ -26,7 +26,7 @@
     <script type="text/javascript" src="http://sc-ctsi.org/index.php/new-includes/sequencejs-options.modern-slide-in"></script>
   </head>
 
-  <body class="new-style">
+  <body class="new-style course-search">
     <div id="wrapper"><!-- START WRAPPER -->
       <div id="header"><!-- START HEADER -->
         <div id="top-navigation-wrapper"><!-- START TOP BAR -->
@@ -61,30 +61,102 @@
 
       <section class="content">
         <aside>
-          <h2>Education Home</h2>
-          <h3>Upcoming Training Opportunities</h3>
-          <ul>
-            <li><span class="date">Aug 7</span>Short Source: Research in Diverse Urban Populations</li>
-            <li><span class="date">Aug 7</span>Short Source: Research in Diverse Urban Populations</li>
-            <li><span class="date">Aug 7</span>Short Source: Research in Diverse Urban Populations</li>
-            <li><span class="date">Aug 7</span>Short Source: Research in Diverse Urban Populations</li>
-          </ul>
+          <h2>Filter by<button id="show_all"><i class="fa fa-filter"></i>Clear All Filters</button></h2>
 
-          <h3>Featured Video</h3>
-          <figure>
-            <img src="images/featured_video.png"></img><div class="watch-video">Watch Featured Video<i class="fa fa-play"></i></div>
-            <figcaption>Featured lecture: How to conduct research in diverse, urban populations</figcaption>
-          </figure>
+          <form id="filters">
+            
+            <fieldset>
+              <h3>Who You Are</h3>
+              <ul>
+                <li><div id="who_you_are_community_health_worker" class="checkbox"><input type="checkbox" value=".community-health-worker"/><label>Community Health Worker</label></div></li>
+                <li><div id="who_you_are_faculty" class="checkbox"><input type="checkbox" value=".faculty"/><label>Faculty</label></div></li>
+                <li><div id="who_you_are_kl2_scholar" class="checkbox"><input type="checkbox" value=".kl2-scholar"/><label>KL2 Scholar</label></div></li>
+                <li><div id="who_you_are_postdoctoral_scholar" class="checkbox"><input type="checkbox" value=".postdoctoral-scholar"/><label>Postdoctoral Scholar</label></div></li>
+              </ul>
+            </fieldset>
+
+            <fieldset>
+              <h3>Resource Format</h3>
+              <ul>
+                <li><div id="resource_format_classroom" class="checkbox"><input type="checkbox" value=".classroom"/><label>Classroom</label></div></li>
+                <li><div id="resource_online_video" class="checkbox"><input type="checkbox" value=".online-video"/><label>Online Video</label></div></li>
+                <li><div id="resource_format_presentation_slides" class="checkbox"><input type="checkbox" value=".presentation-slides"/><label>Presentation Slides</label></div></li>
+              </ul>
+            </fieldset>
+
+            <fieldset>
+              <h3>Competencies Sought</h3>
+              <ul>
+                <li><div id="competencies_sought_bioinformatics" class="checkbox"><input type="checkbox" value=".bioinformatics"/><label>Bioinformatics (8)</label></div></li>
+                <li><div id="competencies_sought_community_engagement" class="checkbox"><input type="checkbox" value=".community-engagement"/><label>Community Engagement (3)</label></div></li>
+                <li><div id="competencies_sought_compliance" class="checkbox"><input type="checkbox" value=".compliance"/><label>Compliance (1)</label></div></li>
+              </ul>
+            </fieldset>
+
+          </form>
+
         </aside>
 
-        <section class="main-content">
-          <h2><i class="fa fa-bullhorn"></i>Training Awards: Application deadline December 6, 2014</h2>
-          <section class="search">
-            <h3>Learn from 75 Courses and Resources</h3>
-            <form>
-              <div class="search-input"><input type="text" placeholder="What would you like to learn about?"/></div>
-            </form>
-          </section>
+        <section class="search-results">
+          <h1>Clinical and Translational Research Training</h1>
+          <table>
+            <tbody>
+              <tr>
+                <td><img src="images/course-thumbnails/course_1.png"></img></td>
+                <td>
+                  <h2><a href="#">Research in Diverse Urban Populations</a></h2>
+                  <p>with <a href="#">Jonathen Samet</a>, MD, MS; <a href="#">Lourdes Baezconde-Garbanati</a>, PhD; <a href="#">Katrina Kubicek</a>, PhD; <a href="#">Jennifer Unger</a>, PhD; <a href="#">William Vega</a>, PhD;</p>
+                </td>
+                <td>
+                  <h3>Upcoming Course</h3>
+                  <ul class="details">
+                    <li>Aug 4, 2014</li>
+                    <li>4 hours, 1 day</li>
+                  </ul>
+                  <h3>Resource</h3>
+                  <ul class="details">
+                    <li>5 videos, 1.30 hours</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="images/course-thumbnails/course_2.png"></img></td>
+                <td>
+                  <h2><a href="#">Research in Diverse Urban Populations</a></h2>
+                  <p>with <a href="#">Jonathen Samet</a>, MD, MS; <a href="#">Lourdes Baezconde-Garbanati</a>, PhD; <a href="#">Katrina Kubicek</a>, PhD; <a href="#">Jennifer Unger</a>, PhD; <a href="#">William Vega</a>, PhD;</p>
+                </td>
+                <td>
+                  <h3>Upcoming Course</h3>
+                  <ul class="details">
+                    <li>Aug 4, 2014</li>
+                    <li>4 hours, 1 day</li>
+                  </ul>
+                  <h3>Resource</h3>
+                  <ul class="details">
+                    <li>5 videos, 1.30 hours</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="images/course-thumbnails/course_3.png"></img></td>
+                <td>
+                  <h2><a href="#">Research in Diverse Urban Populations</a></h2>
+                  <p>with <a href="#">Jonathen Samet</a>, MD, MS; <a href="#">Lourdes Baezconde-Garbanati</a>, PhD; <a href="#">Katrina Kubicek</a>, PhD; <a href="#">Jennifer Unger</a>, PhD; <a href="#">William Vega</a>, PhD;</p>
+                </td>
+                <td>
+                  <h3>Upcoming Course</h3>
+                  <ul class="details">
+                    <li>Aug 4, 2014</li>
+                    <li>4 hours, 1 day</li>
+                  </ul>
+                  <h3>Resource</h3>
+                  <ul class="details">
+                    <li>5 videos, 1.30 hours</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </section>
       </section>
 
