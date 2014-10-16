@@ -1,0 +1,77 @@
+body.course section.content {
+  header {
+    border-bottom: 1px dotted #ccc;
+    margin-bottom: 15px;
+    @include clearfix;
+
+    h1 {
+      font-weight: normal;
+      margin-bottom: 15px;
+      line-height: 1.25em;
+    }
+
+    section.course-summary {
+      float: left;
+      width: 425px;
+    }
+
+    figure {
+      float: right;
+
+      img {
+        width: 450px;
+        height: 250px;
+      }
+
+      figcaption {
+        position: relative;
+        top: -150px;
+        left: 25%;
+        text-align: center;
+        padding: 15px;
+        border-radius: 30px;
+        background: #eee;
+        background: rgba(255, 255, 255, 0.75);
+        font-size: 16px;
+        font-weight: bold;
+        width: 250px;
+
+        i {
+          margin-left: 10px;
+        }        
+      }
+    }
+  }
+
+  section.course-details {
+    @include span-columns(9);
+
+    h2 {
+      font-size: 20px;
+      background: none;
+      font-weight: normal;
+      color: #000;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style: disc;
+      margin-left: 30px;
+    }
+  }
+
+  aside {
+    @include span-columns(3);
+
+    h2 {
+      color: #000;
+      font-size: 20px;
+      background: none;
+      font-weight: normal;
+      letter-spacing: 0px;
+    }
+  }
+}

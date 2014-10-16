@@ -17,6 +17,7 @@ section.content {
   -moz-box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
+  margin-bottom: 210px;
 }
 section.content:after {
   content: "";
@@ -26,7 +27,7 @@ section.content:after {
 
 /*Footer > Social*/
 #site-footer {
-  height: 100px;
+  height: 130px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -440,4 +441,84 @@ body.course-search section.search-results table ul.instructors.singleline li {
 }
 body.course-search section.search-results table ul.instructors.singleline li:after {
   content: ";";
+}
+
+body.course section.content header {
+  border-bottom: 1px dotted #ccc;
+  margin-bottom: 15px;
+}
+body.course section.content header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body.course section.content header h1 {
+  font-weight: normal;
+  margin-bottom: 15px;
+  line-height: 1.25em;
+}
+body.course section.content header section.course-summary {
+  float: left;
+  width: 425px;
+}
+body.course section.content header figure {
+  float: right;
+}
+body.course section.content header figure img {
+  width: 450px;
+  height: 250px;
+}
+body.course section.content header figure figcaption {
+  position: relative;
+  top: -150px;
+  left: 25%;
+  text-align: center;
+  padding: 15px;
+  border-radius: 30px;
+  background: #eee;
+  background: rgba(255, 255, 255, 0.75);
+  font-size: 16px;
+  font-weight: bold;
+  width: 250px;
+}
+body.course section.content header figure figcaption i {
+  margin-left: 10px;
+}
+body.course section.content section.course-details {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 74.41059%;
+}
+body.course section.content section.course-details:last-child {
+  margin-right: 0;
+}
+body.course section.content section.course-details h2 {
+  font-size: 20px;
+  background: none;
+  font-weight: normal;
+  color: #000;
+}
+body.course section.content section.course-details p {
+  margin-bottom: 15px;
+}
+body.course section.content section.course-details ul {
+  list-style: disc;
+  margin-left: 30px;
+}
+body.course section.content aside {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+}
+body.course section.content aside:last-child {
+  margin-right: 0;
+}
+body.course section.content aside h2 {
+  color: #000;
+  font-size: 20px;
+  background: none;
+  font-weight: normal;
+  letter-spacing: 0px;
 }
