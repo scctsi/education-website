@@ -8,6 +8,10 @@ a {
   box-sizing: border-box;
 }
 
+#top-navigation {
+  height: 40px;
+}
+
 section.content {
   font-family: "PT Sans", Arial, sans-serif;
   width: 960px;
@@ -177,22 +181,22 @@ aside h2 {
   margin-bottom: 30px;
 }
 aside h3 {
-  padding: 5px 0px;
+  padding: 0px 0px;
   font-size: 18px;
-  border-top: 1px dotted #ccc;
-  border-bottom: 1px dotted #ccc;
   font-weight: normal;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  border-left: 5px solid #990000;
+  padding-left: 10px;
 }
 aside ul {
+  margin-left: 15px;
   margin-bottom: 15px;
 }
 aside ul span.date {
   display: block;
-  font-weight: 700;
 }
 aside ul li {
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 aside figure {
   position: relative;
@@ -318,42 +322,151 @@ section.main-content h2 {
   margin-bottom: 30px;
 }
 section.main-content h2 i {
+  margin-left: 5px;
+}
+section.main-content h2 i.fa-bullhorn {
   color: #990000;
   margin-right: 5px;
+  margin-left: 0px;
 }
-section.main-content .search {
-  height: 200px;
-  width: 100%;
-  background: url(../images/search-background.jpg);
-  position: relative;
+section.main-content h2 a {
+  float: right;
+  margin-top: 3px;
+  padding-left: 15px;
+  border-left: 1px dotted #ccc;
+  font-size: 15px;
+  margin-right: 5px;
+  letter-spacing: 0px;
 }
-section.main-content .search form {
-  position: absolute;
-  top: 45%;
-  width: 562px;
-  left: 25px;
-}
-section.main-content .search form .search-input {
-  padding: 5px;
-  background-color: rgba(255, 255, 255, 0.35);
-  border-radius: 5px;
-}
-section.main-content .search form input {
-  padding: 5px 10px;
-  border-radius: 5px;
-  border: none;
-  width: 100%;
-  font-family: "PT Sans", Arial, sans-serif;
-  font-size: 18px;
-  color: #000;
-  border: 5px solid #eee;
-}
-section.main-content .search h3 {
+section.main-content h3 {
   background: #fff;
   font-size: 18px;
   color: #666;
   font-weight: normal;
-  padding: 5px 10px;
+  padding: 5px 0px;
+}
+section.main-content .awards .awardees {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+}
+section.main-content .awards .awardees:last-child {
+  margin-right: 0;
+}
+section.main-content .awards .apply {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+}
+section.main-content .awards .apply:last-child {
+  margin-right: 0;
+}
+section.main-content .awards .apply div {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 5px 15px 5px;
+  font-size: 14px;
+  color: #999;
+}
+section.main-content .awards .apply div mark {
+  display: block;
+  background: none;
+  font-size: 16px;
+}
+section.main-content .awards .apply div i {
+  color: #267196;
+  font-size: 40px;
+  margin-top: 5px;
+}
+section.main-content .awards .apply div:hover {
+  cursor: pointer;
+}
+section.main-content .awards .apply div:hover i {
+  color: #999;
+}
+section.main-content .search {
+  height: 200px;
+  position: relative;
+}
+section.main-content .search .search-box {
+  position: relative;
+  background: url(../images/search-background.jpg);
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  height: 150px;
+  padding: 15px;
+}
+section.main-content .search .search-box:last-child {
+  margin-right: 0;
+}
+section.main-content .search .search-box:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+section.main-content .search .search-roles {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+}
+section.main-content .search .search-roles:last-child {
+  margin-right: 0;
+}
+section.main-content .search .search-roles ul {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+section.main-content .search .search-roles ul li {
+  margin-bottom: 20px;
+}
+section.main-content .search .search-roles ul li i {
+  margin-left: 5px;
+}
+section.main-content .search form {
+  position: absolute;
+  width: 90%;
+  top: 30%;
+}
+section.main-content .search form .search-input {
+  position: relative;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.35);
+  border-radius: 5px;
+}
+section.main-content .search form .search-input:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+section.main-content .search form .search-input input {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 16px;
+  color: #000;
+  border: 5px solid #eee;
+  float: left;
+  outline: none;
+}
+section.main-content .search form .search-input button {
+  width: 50px;
+  border: none;
+  border-left: 1px dotted #ccc;
+  position: absolute;
+  left: 200px;
+  top: 46px;
+  font-size: 15px;
+  color: #000;
+  padding-left: 15px;
 }
 
 body.course-search section.content aside {
@@ -445,7 +558,8 @@ body.course-search section.search-results table ul.instructors.singleline li:aft
 
 body.course section.content header {
   border-bottom: 1px dotted #ccc;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 body.course section.content header:after {
   content: "";
@@ -463,6 +577,9 @@ body.course section.content header section.course-summary {
 }
 body.course section.content header figure {
   float: right;
+  padding: 0;
+  margin: 0;
+  height: 250px;
 }
 body.course section.content header figure img {
   width: 450px;
@@ -521,4 +638,17 @@ body.course section.content aside h2 {
   background: none;
   font-weight: normal;
   letter-spacing: 0px;
+  padding: 0;
+  margin: 0;
+}
+body.course section.content aside ul.details {
+  margin-bottom: 10px;
+  color: #666;
+  font-size: 14px;
+}
+body.course section.content aside ul.details i {
+  margin-right: 5px;
+}
+body.course section.content aside ul.details li {
+  margin-bottom: 5px;
 }

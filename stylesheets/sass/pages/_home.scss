@@ -3,8 +3,23 @@ section.main-content {
 
   h2 {
     i {
+      margin-left: 5px;
+    }
+
+    i.fa-bullhorn {
       color: #990000;
       margin-right: 5px;
+      margin-left: 0px;
+    }
+
+    a {
+      float: right;
+      margin-top: 3px;
+      padding-left: 15px;
+      border-left: 1px dotted #ccc;
+      font-size: 15px;
+      margin-right: 5px;
+      letter-spacing: 0px;
     }
 
     padding: 8px 10px;
@@ -16,43 +31,121 @@ section.main-content {
     margin-bottom: 30px;
   }
 
+  h3 {
+    background: #fff;
+    font-size: 18px;
+    color: #666;
+    font-weight: normal;
+    padding: 5px 0px;
+  }
+
+  .awards {
+    .awardees {
+      @include span-columns(8);
+    }
+
+    .apply {
+      @include span-columns(4);
+
+      div {
+        width: 100%;
+        text-align: center;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px 5px 15px 5px;
+        font-size: 14px;
+        color: #999;
+
+        mark {
+          display: block;
+          background: none;
+          font-size: 16px;
+        }
+
+        i {
+          color: #267196;
+          font-size: 40px;
+          margin-top: 5px;
+        }
+      }
+
+      div:hover {
+        cursor: pointer;
+
+        i {
+          color: #999;
+        }
+      }
+    }
+  }
+
   .search {
     height: 200px;
-    width: 100%;
-    background: url(../images/search-background.jpg);
     position: relative;
+
+    .search-box {
+      position: relative;
+      background: url(../images/search-background.jpg);
+      @include span-columns(8);
+      @include clearfix;
+      height: 150px;
+      padding: 15px;
+    }
+
+    .search-roles {
+      @include span-columns(4);
+
+      ul {
+        padding-top: 25px;
+        padding-bottom: 25px;
+      }
+
+      ul li {
+        margin-bottom: 20px;
+
+        i {
+          margin-left: 5px;
+        }
+      }
+    }
 
     form {
       position: absolute;
-      top: 45%;
-      width: 562px;
-      left: 25px;
+      width: 90%;
+      top: 30%;
 
       .search-input {
+        position: relative;
         padding: 5px;
         background-color: rgba(255, 255, 255, 0.35);
         border-radius: 5px;
-      }
+        @include clearfix;
 
-      input {
-        padding: 5px 10px;
-        border-radius: 5px;
-        border: none;
-        width: 100%;
-        font-family: $font-stack;
-        font-size: 18px;
-        color: #000;
-        border: 5px solid #eee;
+        input {
+          padding: 10px 15px;
+          border-radius: 5px;
+          border: none;
+          width: 100%;
+          font-family: $font-stack;
+          font-size: 16px;
+          color: #000;
+          border: 5px solid #eee;
+          float: left;
+          outline: none;
+        }
+
+        button {
+          width: 50px;
+          border: none;
+          border-left: 1px dotted #ccc;
+          position: absolute;
+          left: 200px;
+          top: 46px;
+          font-size: 15px;
+          color: #000;
+          padding-left: 15px;
+        }
       }
     }
-
-    h3 {
-      background: #fff;
-      font-size: 18px;
-      color: #666;
-      font-weight: normal;
-      padding: 5px 10px;
-    }
-
   }
 }
