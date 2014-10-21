@@ -303,6 +303,74 @@ button i {
   margin-right: 5px;
 }
 
+.slider .testimonial img {
+  float: left;
+  width: 100px;
+}
+.slider .testimonial blockquote {
+  float: right;
+  width: 275px;
+  font-size: 16px;
+  color: #666;
+}
+.slider .testimonial blockquote footer {
+  font-size: 12px;
+  margin-top: 30px;
+  line-height: 1.25em;
+}
+
+.sss {
+  height: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.ssslide {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  overflow: hidden;
+}
+
+.ssslide img {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: block;
+}
+
+.sssnext, .sssprev {
+  width: 25px;
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  background: url("../images/arr.png") no-repeat;
+}
+
+.sssprev {
+  left: 3%;
+  background-position: 0 50%;
+}
+
+.sssnext {
+  right: 3%;
+  background-position: -26px 50%;
+}
+
+.sssprev:hover, .sssnext:hover {
+  cursor: pointer;
+}
+
 section.main-content {
   float: left;
   display: block;
@@ -368,9 +436,10 @@ section.main-content .awards .apply div {
   text-align: center;
   border: 1px solid #ddd;
   border-radius: 5px;
-  padding: 10px 5px 15px 5px;
+  padding: 45px 5px 15px 5px;
   font-size: 14px;
   color: #999;
+  height: 215px;
 }
 section.main-content .awards .apply div mark {
   display: block;
