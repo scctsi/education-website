@@ -188,14 +188,14 @@ aside h3 {
   border-left: 5px solid #990000;
   padding-left: 10px;
 }
-aside ul {
+aside ul.upcoming-training {
   margin-left: 15px;
   margin-bottom: 15px;
 }
-aside ul span.date {
+aside ul.upcoming-training span.date {
   display: block;
 }
-aside ul li {
+aside ul.upcoming-training li {
   margin-bottom: 15px;
 }
 aside figure {
@@ -280,13 +280,12 @@ aside figure .watch-video i {
 
 button {
   vertical-align: top;
-  padding: 0px;
   border: 0;
   color: #666;
   font-size: 14px;
   cursor: pointer;
   margin-left: 90px;
-  padding: 5px 10px;
+  padding: 8px 10px 0px 10px;
   width: 100%;
   margin-top: -30px;
   text-align: left;
@@ -460,6 +459,7 @@ section.main-content .awards .apply div:hover i {
 section.main-content .search {
   height: 200px;
   position: relative;
+  top: -5px;
 }
 section.main-content .search .search-box {
   position: relative;
@@ -552,6 +552,8 @@ body.course-search section.content aside h2 {
   margin: 0;
   padding: 0;
   background: none;
+  font-size: 22px;
+  letter-spacing: 0px;
 }
 
 #filters h3 {
@@ -562,6 +564,13 @@ body.course-search section.content aside h2 {
   background: none;
   border-top: none;
   border-bottom: 1px dotted #ccc;
+  border-left: none;
+}
+#filters ul {
+  margin-bottom: 15px;
+}
+#filters ul li {
+  margin-bottom: 5px;
 }
 
 body.course-search section.search-results {
