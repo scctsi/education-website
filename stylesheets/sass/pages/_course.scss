@@ -20,16 +20,16 @@ body.course section.content {
       float: right;
       padding: 0;
       margin: 0;
-      height: 250px;
+      height: 175px;
 
       img {
-        width: 450px;
-        height: 250px;
+        width: 400px;
+        height: 175px;
       }
 
       figcaption {
         position: relative;
-        top: -150px;
+        top: -115px;
         left: 25%;
         text-align: center;
         padding: 15px;
@@ -98,6 +98,12 @@ body.course section.content {
 
       li {
         margin-bottom: 5px;
+      }
+    }
+
+    figure {
+      img {
+        width: 50px;
       }
     }
   }

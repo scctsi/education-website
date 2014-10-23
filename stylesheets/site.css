@@ -728,15 +728,15 @@ body.course section.content header figure {
   float: right;
   padding: 0;
   margin: 0;
-  height: 250px;
+  height: 175px;
 }
 body.course section.content header figure img {
-  width: 450px;
-  height: 250px;
+  width: 400px;
+  height: 175px;
 }
 body.course section.content header figure figcaption {
   position: relative;
-  top: -150px;
+  top: -115px;
   left: 25%;
   text-align: center;
   padding: 15px;
@@ -807,4 +807,7 @@ body.course section.content aside ul.details i {
 }
 body.course section.content aside ul.details li {
   margin-bottom: 5px;
+}
+body.course section.content aside figure img {
+  width: 50px;
 }
