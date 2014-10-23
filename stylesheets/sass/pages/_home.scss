@@ -52,32 +52,20 @@ section.main-content {
       div {
         width: 100%;
         text-align: center;
-        border: 1px solid #ddd;
         border-radius: 5px;
-        padding: 45px 5px 15px 5px;
+        padding: 15px 5px 15px 5px;
         font-size: 14px;
-        color: #999;
-        height: 215px;
-
-        mark {
-          display: block;
-          background: none;
-          font-size: 16px;
-        }
+        background: #eee;
+        color: darken(#eee, 45%);
 
         i {
-          color: #267196;
-          font-size: 40px;
-          margin-top: 5px;
+          font-size: 30px;
         }
       }
 
       div:hover {
         cursor: pointer;
-
-        i {
-          color: #999;
-        }
+        color: darken(#c4d8e2, 55%);
       }
     }
   }
@@ -273,6 +261,9 @@ aside {
       color: #666;
 
       footer {
+        margin-top: 5px;
+        margin-left: 25px;
+        font-style: italic;
         font-size: 12px;
         line-height: 1.25em;
       }

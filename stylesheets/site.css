@@ -309,14 +309,13 @@ button i {
 }
 
 .sssprev {
-  left: 3%;
-  left: 315px;
+  left: 325px;
   top: 55px;
   background-position: 0 50%;
 }
 
 .sssnext {
-  right: 3%;
+  right: 0;
   top: 55px;
   background-position: -26px 50%;
 }
@@ -390,28 +389,18 @@ section.main-content .awards .apply:last-child {
 section.main-content .awards .apply div {
   width: 100%;
   text-align: center;
-  border: 1px solid #ddd;
   border-radius: 5px;
-  padding: 45px 5px 15px 5px;
+  padding: 15px 5px 15px 5px;
   font-size: 14px;
-  color: #999;
-  height: 215px;
-}
-section.main-content .awards .apply div mark {
-  display: block;
-  background: none;
-  font-size: 16px;
+  background: #eee;
+  color: #7b7b7b;
 }
 section.main-content .awards .apply div i {
-  color: #267196;
-  font-size: 40px;
-  margin-top: 5px;
+  font-size: 30px;
 }
 section.main-content .awards .apply div:hover {
   cursor: pointer;
-}
-section.main-content .awards .apply div:hover i {
-  color: #999;
+  color: #2f4f5f;
 }
 section.main-content .search {
   position: relative;
@@ -600,6 +589,9 @@ aside figure .watch-video i {
   color: #666;
 }
 .slider .testimonial blockquote footer {
+  margin-top: 5px;
+  margin-left: 25px;
+  font-style: italic;
   font-size: 12px;
   line-height: 1.25em;
 }
