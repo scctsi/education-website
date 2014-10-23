@@ -33,6 +33,7 @@ body.course-search section.content aside {
 }
 
 body.course-search section.search-results {
+  padding-left: 15px;
   font-size: 13px;
   @include span-columns(9);
 
@@ -47,6 +48,8 @@ body.course-search section.search-results {
 
   h2 {
     font-weight: normal;
+    line-height: 1.3em;
+    margin-bottom: 5px;
   }
 
   h3 {
@@ -87,17 +90,20 @@ body.course-search section.search-results {
         padding-top: 15px;
         border-bottom: 1px dotted #ccc;
         margin-bottom: 15px;
-      }
-    }
 
-    ul.instructors.singleline {
-      li {
-        float: left;
-        padding-right: 5px;
-      }
+        section.metadata {
+          margin-top: 10px;
 
-      li:after {
-        content: ";";
+          section {
+            border-right: 1px dotted #ccc;
+            @include span-columns(4);
+          }
+
+          section:last-child {
+            border-right: none;
+            padding-left: 15px;
+          }
+        }
       }
     }
   }

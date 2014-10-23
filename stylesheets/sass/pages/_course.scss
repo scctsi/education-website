@@ -1,7 +1,7 @@
 body.course section.content {
   header {
     border-bottom: 1px dotted #ccc;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     padding-bottom: 30px;
     @include clearfix;
 
@@ -48,13 +48,19 @@ body.course section.content {
   }
 
   section.course-details {
+    padding-right: 50px;
     @include span-columns(9);
 
     h2 {
       font-size: 20px;
-      background: none;
       font-weight: normal;
       color: #000;
+      border-left: 5px solid #990000;
+      padding-left: 10px;
+      padding: 5px 15px;
+      background: #eee;
+      margin-bottom: 15px;
+      margin-top: 15px;
     }
 
     p {
@@ -62,17 +68,18 @@ body.course section.content {
     }
 
     ul {
-      list-style: disc;
+      list-style: square;
       margin-left: 30px;
     }
   }
 
   aside {
+    margin-top: 15px;
     @include span-columns(3);
 
     h2 {
       color: #000;
-      font-size: 20px;
+      font-size: 18px;
       background: none;
       font-weight: normal;
       letter-spacing: 0px;

@@ -632,6 +632,7 @@ body.course-search section.content aside h2 {
 }
 
 body.course-search section.search-results {
+  padding-left: 15px;
   font-size: 13px;
   float: left;
   display: block;
@@ -651,6 +652,8 @@ body.course-search section.search-results h1 {
 }
 body.course-search section.search-results h2 {
   font-weight: normal;
+  line-height: 1.3em;
+  margin-bottom: 5px;
 }
 body.course-search section.search-results h3 {
   font-weight: 400;
@@ -684,17 +687,27 @@ body.course-search section.search-results table tr td {
   border-bottom: 1px dotted #ccc;
   margin-bottom: 15px;
 }
-body.course-search section.search-results table ul.instructors.singleline li {
-  float: left;
-  padding-right: 5px;
+body.course-search section.search-results table tr td section.metadata {
+  margin-top: 10px;
 }
-body.course-search section.search-results table ul.instructors.singleline li:after {
-  content: ";";
+body.course-search section.search-results table tr td section.metadata section {
+  border-right: 1px dotted #ccc;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+}
+body.course-search section.search-results table tr td section.metadata section:last-child {
+  margin-right: 0;
+}
+body.course-search section.search-results table tr td section.metadata section:last-child {
+  border-right: none;
+  padding-left: 15px;
 }
 
 body.course section.content header {
   border-bottom: 1px dotted #ccc;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   padding-bottom: 30px;
 }
 body.course section.content header:after {
@@ -738,6 +751,7 @@ body.course section.content header figure figcaption i {
   margin-left: 10px;
 }
 body.course section.content section.course-details {
+  padding-right: 50px;
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -748,18 +762,24 @@ body.course section.content section.course-details:last-child {
 }
 body.course section.content section.course-details h2 {
   font-size: 20px;
-  background: none;
   font-weight: normal;
   color: #000;
+  border-left: 5px solid #990000;
+  padding-left: 10px;
+  padding: 5px 15px;
+  background: #eee;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 body.course section.content section.course-details p {
   margin-bottom: 15px;
 }
 body.course section.content section.course-details ul {
-  list-style: disc;
+  list-style: square;
   margin-left: 30px;
 }
 body.course section.content aside {
+  margin-top: 15px;
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -770,7 +790,7 @@ body.course section.content aside:last-child {
 }
 body.course section.content aside h2 {
   color: #000;
-  font-size: 20px;
+  font-size: 18px;
   background: none;
   font-weight: normal;
   letter-spacing: 0px;
