@@ -1,25 +1,3 @@
-.slider {
-  .testimonial {
-    img {
-      float: left;
-      width: 100px;
-    }
-
-    blockquote {
-      float: right;
-      width: 275px;
-      font-size: 16px;
-      color: #666;
-
-      footer {
-      	font-size: 12px;
-      	margin-top: 30px;
-      	line-height: 1.25em;
-      }
-    }
-  }  
-}
-
 .sss {
 	height: 0;
 	margin: 0;
@@ -60,11 +38,14 @@
 
 .sssprev {
 	left: 3%;
+	left: 315px;
+	top: 55px;
 	background-position: 0 50%;
 }
 
 .sssnext {
 	right: 3%;
+	top: 55px;
 	background-position: -26px 50%;
 }
 

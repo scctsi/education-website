@@ -1,3 +1,5 @@
 $(document).ready(function() {
-	$('.slider').sss();
+	$('.slider').sss({
+		slideShow: false
+	});
 });

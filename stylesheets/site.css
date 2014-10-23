@@ -172,52 +172,20 @@ aside:last-child {
   margin-right: 0;
 }
 aside h2 {
-  padding: 5px 10px;
+  padding: 7px 10px;
   background: #eee;
-  font-size: 22px;
+  font-size: 18px;
+  font-weight: 500;
   letter-spacing: 2px;
   color: #666;
-  font-weight: normal;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
 }
 aside h3 {
   padding: 0px 0px;
   font-size: 18px;
   font-weight: normal;
   margin-bottom: 10px;
-  border-left: 5px solid #990000;
-  padding-left: 10px;
-}
-aside ul.upcoming-training {
-  margin-left: 15px;
-  margin-bottom: 15px;
-}
-aside ul.upcoming-training span.date {
-  display: block;
-}
-aside ul.upcoming-training li {
-  margin-bottom: 15px;
-}
-aside figure {
-  position: relative;
-}
-aside figure img {
-  width: 100%;
-}
-aside figure figcaption {
-  color: #666;
-}
-aside figure .watch-video {
-  position: absolute;
-  top: 35px;
-  left: 70px;
-  padding: 10px;
-  background: #eee;
-  opacity: 0.9;
-  border-radius: 30px;
-}
-aside figure .watch-video i {
-  margin-left: 5px;
 }
 
 .checkbox {
@@ -302,22 +270,6 @@ button i {
   margin-right: 5px;
 }
 
-.slider .testimonial img {
-  float: left;
-  width: 100px;
-}
-.slider .testimonial blockquote {
-  float: right;
-  width: 275px;
-  font-size: 16px;
-  color: #666;
-}
-.slider .testimonial blockquote footer {
-  font-size: 12px;
-  margin-top: 30px;
-  line-height: 1.25em;
-}
-
 .sss {
   height: 0;
   margin: 0;
@@ -358,11 +310,14 @@ button i {
 
 .sssprev {
   left: 3%;
+  left: 315px;
+  top: 55px;
   background-position: 0 50%;
 }
 
 .sssnext {
   right: 3%;
+  top: 55px;
   background-position: -26px 50%;
 }
 
@@ -382,11 +337,13 @@ section.main-content:last-child {
 section.main-content h2 {
   padding: 8px 10px;
   background: #eee;
-  font-size: 18px;
-  letter-spacing: 2px;
   color: #666;
   font-weight: normal;
   margin-bottom: 30px;
+  line-height: 25px;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
 }
 section.main-content h2 i {
   margin-left: 5px;
@@ -457,19 +414,27 @@ section.main-content .awards .apply div:hover i {
   color: #999;
 }
 section.main-content .search {
-  height: 200px;
   position: relative;
-  top: -5px;
+  margin-bottom: 30px;
+  border: 1px solid #c4d8e2;
+}
+section.main-content .search:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+section.main-content .search h3 {
+  background: #c4d8e2;
+  text-align: center;
+  color: #000;
 }
 section.main-content .search .search-box {
   position: relative;
-  background: url(../images/search-background.jpg);
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 65.88078%;
+  width: 57.35098%;
   height: 150px;
-  padding: 15px;
 }
 section.main-content .search .search-box:last-child {
   margin-right: 0;
@@ -483,31 +448,32 @@ section.main-content .search .search-roles {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%;
+  width: 40.29137%;
 }
 section.main-content .search .search-roles:last-child {
   margin-right: 0;
 }
 section.main-content .search .search-roles ul {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding: 15px;
+  padding-top: 30px;
+  border-left: 1px dotted #ccc;
 }
 section.main-content .search .search-roles ul li {
+  font-size: 14px;
   margin-bottom: 20px;
+  color: #267196;
 }
 section.main-content .search .search-roles ul li i {
-  margin-left: 5px;
+  margin-right: 5px;
 }
 section.main-content .search form {
   position: absolute;
-  width: 90%;
-  top: 30%;
+  left: 15px;
+  width: 100%;
+  top: 40%;
 }
 section.main-content .search form .search-input {
   position: relative;
-  padding: 5px;
-  background-color: rgba(255, 255, 255, 0.35);
-  border-radius: 5px;
 }
 section.main-content .search form .search-input:after {
   content: "";
@@ -516,26 +482,126 @@ section.main-content .search form .search-input:after {
 }
 section.main-content .search form .search-input input {
   padding: 10px 15px;
-  border-radius: 5px;
   border: none;
-  width: 100%;
+  width: 95%;
   font-family: "PT Sans", Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   color: #000;
-  border: 5px solid #eee;
+  border: 1px solid #c4d8e2;
+  border-radius: 25px;
   float: left;
   outline: none;
 }
 section.main-content .search form .search-input button {
-  width: 50px;
+  width: 45px;
   border: none;
   border-left: 1px dotted #ccc;
   position: absolute;
-  left: 200px;
-  top: 46px;
+  left: 180px;
+  top: 40px;
   font-size: 15px;
   color: #000;
-  padding-left: 15px;
+  padding: 5px 15px;
+}
+
+aside ul.upcoming-training {
+  margin-bottom: 15px;
+  border-bottom: 1px dotted #ccc;
+}
+aside ul.upcoming-training:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+aside ul.upcoming-training a {
+  float: right;
+  position: relative;
+  top: -5px;
+}
+aside ul.upcoming-training a i {
+  margin-left: 5px;
+}
+aside ul.upcoming-training li {
+  margin-bottom: 25px;
+}
+aside ul.upcoming-training li:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+aside ul.upcoming-training li:last-child {
+  margin-bottom: 0px;
+}
+aside ul.upcoming-training li.view-all {
+  margin-top: -15px;
+  margin-bottom: 5px;
+}
+aside ul.upcoming-training .event-date {
+  border: 1px dotted #CCCCCC;
+  font-weight: bold;
+  width: 50px;
+  text-align: center;
+  float: left;
+  margin-right: 15px;
+}
+aside ul.upcoming-training .event-month {
+  font-size: 10px;
+  display: block;
+  background: #EEE;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+}
+aside ul.upcoming-training .event-day {
+  font-size: 18px;
+  display: block;
+  font-weight: normal;
+  padding: 5px;
+  text-align: center;
+}
+aside ul.upcoming-training .event-details {
+  float: right;
+  width: 220px;
+  line-height: 1.4em;
+}
+aside figure {
+  position: relative;
+}
+aside figure img {
+  width: 80%;
+}
+aside figure figcaption {
+  color: #666;
+  line-height: 1.4em;
+}
+aside figure .watch-video {
+  position: absolute;
+  top: 40px;
+  left: 70px;
+  padding: 10px;
+  background: #eee;
+  opacity: 0.9;
+  border-radius: 30px;
+}
+aside figure .watch-video i {
+  margin-left: 5px;
+}
+
+.slider .testimonial img {
+  float: left;
+  width: 100px;
+}
+.slider .testimonial blockquote {
+  float: right;
+  width: 275px;
+  font-size: 16px;
+  color: #666;
+}
+.slider .testimonial blockquote footer {
+  font-size: 12px;
+  line-height: 1.25em;
 }
 
 body.course-search section.content aside {

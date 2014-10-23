@@ -24,11 +24,13 @@ section.main-content {
 
     padding: 8px 10px;
     background: #eee;
-    font-size: 18px;
-    letter-spacing: 2px; 
     color: #666;
     font-weight: normal;
     margin-bottom: 30px;
+    line-height: 25px;
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
   }
 
   h3 {
@@ -81,73 +83,199 @@ section.main-content {
   }
 
   .search {
-    height: 200px;
     position: relative;
-    top: -5px;
+    margin-bottom: 30px;
+    border: 1px solid #c4d8e2;
+    @include clearfix;
+
+    h3 {
+      background: #c4d8e2;
+      text-align: center;
+      color: #000;
+    }
 
     .search-box {
       position: relative;
-      background: url(../images/search-background.jpg);
-      @include span-columns(8);
+      @include span-columns(7);
       @include clearfix;
       height: 150px;
-      padding: 15px;
     }
 
     .search-roles {
-      @include span-columns(4);
+      @include span-columns(5);
 
       ul {
-        padding-top: 25px;
-        padding-bottom: 25px;
+        padding: 15px;
+        padding-top: 30px;
+        border-left: 1px dotted #ccc;
       }
 
       ul li {
+        font-size: 14px;
         margin-bottom: 20px;
+        color: #267196;
 
         i {
-          margin-left: 5px;
+          margin-right: 5px;
         }
       }
     }
 
     form {
       position: absolute;
-      width: 90%;
-      top: 30%;
+      left: 15px;      
+      width: 100%;
+      top: 40%;
 
       .search-input {
         position: relative;
-        padding: 5px;
-        background-color: rgba(255, 255, 255, 0.35);
-        border-radius: 5px;
         @include clearfix;
 
         input {
           padding: 10px 15px;
-          border-radius: 5px;
           border: none;
-          width: 100%;
+          width: 95%;
           font-family: $font-stack;
-          font-size: 16px;
+          font-size: 18px;
           color: #000;
-          border: 5px solid #eee;
+          border: 1px solid #c4d8e2;
+          border-radius: 25px;
           float: left;
           outline: none;
         }
 
         button {
-          width: 50px;
+          width: 45px;
           border: none;
           border-left: 1px dotted #ccc;
           position: absolute;
-          left: 200px;
-          top: 46px;
+          left: 180px;
+          top: 40px;
           font-size: 15px;
           color: #000;
-          padding-left: 15px;
+          padding: 5px 15px;
         }
       }
     }
   }
+}
+
+aside {
+  // Training Opportunities
+  ul.upcoming-training {
+    margin-bottom: 15px;
+    border-bottom: 1px dotted #ccc;
+    @include clearfix;
+
+    a {
+      float: right;
+      position: relative;
+      top: -5px;
+
+      i {
+        margin-left: 5px;
+      }
+    }
+
+    li {
+      margin-bottom: 25px;
+      @include clearfix;
+    }
+
+    li:last-child {
+      margin-bottom: 0px;
+    }
+
+    li.view-all {
+      margin-top: -15px;
+      margin-bottom: 5px;
+    }
+
+    .event-date
+    {
+      border: 1px dotted #CCCCCC;
+      font-weight: bold;
+      width: 50px;
+      text-align: center;
+      float: left;
+      margin-right: 15px;
+    }
+
+    .event-month
+    {
+      font-size: 10px;
+      display: block;
+      background: #EEE;
+      color: #000;
+      text-transform: uppercase;
+      font-weight: bold;
+      padding: 5px;
+      text-align: center;
+    }
+
+    .event-day
+    {
+      font-size: 18px;
+      display: block;
+      font-weight: normal;
+      padding: 5px;
+      text-align: center;
+    }
+
+    .event-details
+    {
+      float: right;
+      width: 220px;
+      line-height: 1.4em;
+    }
+  }
+
+  figure {
+    position: relative;
+  
+    img {
+      width: 80%;
+    }
+
+    figcaption {
+      color: #666;
+      line-height: 1.4em;
+    }
+
+    .watch-video {
+      position: absolute;
+      top: 40px;
+      left: 70px;
+      padding: 10px;
+      background: #eee;
+      opacity: 0.9;
+      border-radius: 30px;
+
+      i {
+        margin-left: 5px;
+      }
+    }
+  }
+}
+
+// Testimonial Slider
+.slider {
+  .testimonial {
+    img {
+      float: left;
+      width: 100px;
+    }
+
+    blockquote {
+      float: right;
+      width: 275px;
+      font-size: 16px;
+      color: #666;
+
+      footer {
+        font-size: 12px;
+        line-height: 1.25em;
+      }
+    }
+  }  
 }
