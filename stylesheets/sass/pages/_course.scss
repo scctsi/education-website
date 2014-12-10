@@ -101,9 +101,41 @@ body.course section.content {
       }
     }
 
-    figure {
-      img {
-        width: 50px;
+    ul.competencies {
+      margin-bottom: 15px;
+    }
+
+    ul.instructors > li {
+      margin-bottom: 15px;
+
+      @include clearfix;
+    }
+
+    ul.instructors > li:last-child {
+      margin-bottom: 0px;
+
+      @include clearfix;
+    }
+
+    ul.instructors {
+      h3 {
+        padding: 0px;
+        margin-bottom: 0px;
+        margin-top: -5px;
+      }
+
+      figure {
+        float: left;
+  
+        img {
+          width: 50px;
+        }
+      }
+
+      ul.details {
+        float: right;
+        width: 145px;
+        font-size: 13px;
       }
     }
   }

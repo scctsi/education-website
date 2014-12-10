@@ -304,7 +304,6 @@ button i {
   height: 100%;
   margin: 0;
   position: absolute;
-  top: 0;
   background: url("../images/arr.png") no-repeat;
 }
 
@@ -322,6 +321,40 @@ button i {
 
 .sssprev:hover, .sssnext:hover {
   cursor: pointer;
+}
+
+a.action-button {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 15px 5px 15px 5px;
+  font-size: 14px;
+  background: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  border-bottom: 5px solid #a2c1d1;
+}
+a.action-button i {
+  font-size: 30px;
+  color: #91b6c9;
+}
+
+a.action-button:hover {
+  background: #d5e3ea;
+  border-bottom: 5px solid #b3cdda;
+  cursor: pointer;
+}
+
+a.action-button:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  border-bottom: 1px solid #b3cdda;
+}
+
+a.animate {
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
 }
 
 section.main-content {
@@ -386,31 +419,23 @@ section.main-content .awards .apply {
 section.main-content .awards .apply:last-child {
   margin-right: 0;
 }
-section.main-content .awards .apply div {
-  width: 100%;
-  text-align: center;
-  border-radius: 5px;
-  padding: 15px 5px 15px 5px;
-  font-size: 14px;
-  background: #eee;
-  color: #7b7b7b;
-}
-section.main-content .awards .apply div i {
-  font-size: 30px;
-}
-section.main-content .awards .apply div:hover {
-  cursor: pointer;
-  color: #2f4f5f;
-}
 section.main-content .search {
   position: relative;
   margin-bottom: 30px;
   border: 1px solid #c4d8e2;
+  background: #c4d8e2;
 }
 section.main-content .search:after {
   content: "";
   display: table;
   clear: both;
+}
+section.main-content .search p {
+  font-size: 14px;
+  color: #267196;
+  text-align: center;
+  margin-top: 25px;
+  font-family: Arial, sans-serif;
 }
 section.main-content .search h3 {
   background: #c4d8e2;
@@ -419,11 +444,11 @@ section.main-content .search h3 {
 }
 section.main-content .search .search-box {
   position: relative;
+  height: 150px;
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 57.35098%;
-  height: 150px;
 }
 section.main-content .search .search-box:last-child {
   margin-right: 0;
@@ -443,23 +468,35 @@ section.main-content .search .search-roles:last-child {
   margin-right: 0;
 }
 section.main-content .search .search-roles ul {
-  padding: 15px;
+  padding: 15px 0px;
   padding-top: 30px;
-  border-left: 1px dotted #ccc;
 }
 section.main-content .search .search-roles ul li {
+  padding: 5px 10px;
   font-size: 14px;
-  margin-bottom: 20px;
-  color: #267196;
+  margin-bottom: 10px;
 }
 section.main-content .search .search-roles ul li i {
   margin-right: 5px;
+}
+section.main-content .search .search-roles .unchecked-icon, section.main-content .search .search-roles .checked-icon {
+  float: right;
+  margin-top: 3px;
+}
+section.main-content .search .search-roles .checked-icon {
+  display: none;
+}
+section.main-content .search .search-roles ul li.checked .unchecked-icon {
+  display: none;
+}
+section.main-content .search .search-roles ul li.checked .checked-icon {
+  display: inline-block;
 }
 section.main-content .search form {
   position: absolute;
   left: 15px;
   width: 100%;
-  top: 40%;
+  top: 20%;
 }
 section.main-content .search form .search-input {
   position: relative;
@@ -493,6 +530,9 @@ section.main-content .search form .search-input button {
   padding: 5px 15px;
 }
 
+aside h3 {
+  color: #333;
+}
 aside ul.upcoming-training {
   margin-bottom: 15px;
   border-bottom: 1px dotted #ccc;
@@ -506,9 +546,13 @@ aside ul.upcoming-training a {
   float: right;
   position: relative;
   top: -5px;
+  color: #000;
 }
 aside ul.upcoming-training a i {
   margin-left: 5px;
+}
+aside ul.upcoming-training a:hover {
+  color: #267196;
 }
 aside ul.upcoming-training li {
   margin-bottom: 25px;
@@ -564,6 +608,7 @@ aside figure img {
 aside figure figcaption {
   color: #666;
   line-height: 1.4em;
+  width: 225px;
 }
 aside figure .watch-video {
   position: absolute;
@@ -590,7 +635,6 @@ aside figure .watch-video i {
 }
 .slider .testimonial blockquote footer {
   margin-top: 5px;
-  margin-left: 25px;
   font-style: italic;
   font-size: 12px;
   line-height: 1.25em;
@@ -808,6 +852,40 @@ body.course section.content aside ul.details i {
 body.course section.content aside ul.details li {
   margin-bottom: 5px;
 }
-body.course section.content aside figure img {
+body.course section.content aside ul.competencies {
+  margin-bottom: 15px;
+}
+body.course section.content aside ul.instructors > li {
+  margin-bottom: 15px;
+}
+body.course section.content aside ul.instructors > li:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body.course section.content aside ul.instructors > li:last-child {
+  margin-bottom: 0px;
+}
+body.course section.content aside ul.instructors > li:last-child:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body.course section.content aside ul.instructors h3 {
+  padding: 0px;
+  margin-bottom: 0px;
+  margin-top: -5px;
+}
+body.course section.content aside ul.instructors figure {
+  float: left;
+}
+body.course section.content aside ul.instructors figure img {
   width: 50px;
 }
+body.course section.content aside ul.instructors ul.details {
+  float: right;
+  width: 145px;
+  font-size: 13px;
+}
+
+/*# sourceMappingURL=education.css.map */

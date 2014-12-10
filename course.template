@@ -1,0 +1,91 @@
+{embed="new-embeds/head"}
+{embed="new-embeds/header" body_class="course"}
+
+  <section class="content-wrapper">
+    <section class="content">
+      <header>
+        <section class="course-summary">
+          <h1>Introduction to Clinical and Translational Research, Session 1</h1>
+          <p>This course introduces the mission and processes of Clinical and Translational Research (CTR). It demonstrates approaches to formulating and writing research questions and hypotheses appropriate to CTR. Online video lectures prepare participants for the course sessions.</p>
+        </section>
+        <figure>
+          <a href=" http://vimeopro.com/scctsiecde/sc-ctsi-short-course-2014-session-1"><img src="images/course-thumbnails/course_1.png"></img></a>
+          <figcaption>Watch Intro Video<i class="fa fa-play"></i></figcaption>
+        </figure>
+      </header>
+
+      <section class="course-details">
+        <h2>About the Course</h2>
+        <p>CTR is the branch of health research that seeks to bridge the gap between bench researchers who conduct basic science and clinicians seeking to treat people and populations. To speed the pace of CTR, the NIH has galvanized the field through establishment of the Clinical Translational Science Award.</p>
+        <p>In Part 1 of the video lectures that accompany "Introduction to Clinical and Translational Research, Session 1," an ECDE lecturer summarizes the history and rise of CTR in recent years, and introduce its key concepts. He reviews the obstacles that make translational research difficult, and the basic processes and architecture of CTR studies. Emphasis is given to CTR's various goals, including the improved use of bioinformatics and high dimensional data in research, and the development of Precision Medicine, (sometimes known as personalized medicine.)</p>
+        <p>Part 2 of the video lectures focuses on the importance of forming research questions and hypotheses appropriate to CTR inquiry. The lecturer outlines the types of health phenomena CTR is most concerned with, including disease/health mechanisms and mediators, diagnoses, and interventions. She reviews the nature of CTR research questions, and provides tools to help new investigators construct compelling hypotheses that will contribute to success in research, grant applications and article submissions.</p>
+        <h2>Syllabus</h2>
+        <ul>
+          <li>What is Clinical and Translational Research?</li>
+          <li>Understanding the Stages of CTR</li>
+          <li>The Role of CTR in Precision Medicine</li>
+          <li>Using High Dimension Data (Bioinformatics)</li>
+          <li>Multidisciplinary and CTR Team Research in CTR</li>
+          <li>Outcomes and Comparative Effectiveness Research</li>
+          <li>Formulating Clinical Translational Research Questions and Hypotheses</li>
+          <li>Common Reasons Why Papers are Rejected for Publication</li>
+          <li>Where Do You Find the Hypotheses in Published Article?</li>
+        </ul>
+        <h2>Course Materials</h2>
+        <h2>Recommended background</h2>
+        <p>Please complete the following prior to attending the annual short course, "Introduction to Clinical and Translational Research, Session 1":</p>
+        <ul>
+          <li>Pre-test on Clinical Translational Research</li>
+          <li>View the two-part video resource</li>
+          <li>Participant Break-out Session Guide</li>
+          <li>Read the four articles listed below</li>
+        </ul>
+        <h2>Suggested Readings</h2>
+        <h2>FAQ</h2>
+      </section>
+
+      <aside>
+        <h2>Share</h2>
+        <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f6b9c3c44468914' type='text/javascript'></script>
+        <div class='addthis_sharing_toolbox'></div>
+        <h2>Sessions</h2>
+        <ul class="details">
+          <li>N/A</li>
+        </ul>
+        <h2>Course at a Glance</h2>
+        <ul class="details">
+          <li><i class="fa fa-clock-o"></i>20 hours/week</li>
+          <li><i class="fa fa-video-camera"></i>5 videos</li>
+        </ul>
+        <h2>Instructors</h2>
+          <ul class="instructors">
+            <li><figure><img src="images/instructor-thumbnails/jonathan_samet.jpg"></img></figure>
+              <ul class="details">
+                <li><h3><a href="#">Jonathan Samet</a></h3></li>
+                <li>Director, SC CTSI Education, Career Development, and Ethics</li>
+              </ul>
+            </li>
+            <li><figure><img src="images/instructor-thumbnails/jonathan_samet.jpg"></img></figure>
+              <ul class="details">
+                <li><h3><a href="#">Jonathan Samet</a></h3></li>
+                <li>Director, SC CTSI Education, Career Development, and Ethics</li>
+              </ul>
+            </li>
+            <li><figure><img src="images/instructor-thumbnails/jonathan_samet.jpg"></img></figure>
+              <ul class="details">
+                <li><h3><a href="#">Jonathan Samet</a></h3></li>
+                <li>Director, SC CTSI Education, Career Development, and Ethics</li>
+              </ul>
+            </li>
+          </ul>
+        <h2>Competencies</h2>
+        <ul class="competencies">
+          <li><a href="#">Biostatistics</a></li>
+          <li><a href="#">Clinical Research</a></li>
+        </ul>
+      </aside>
+    </section>
+  </section>
+
+</div><!-- END WRAPPER -->
+{embed="new-embeds/footer"}

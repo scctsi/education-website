@@ -48,25 +48,6 @@ section.main-content {
 
     .apply {
       @include span-columns(4);
-
-      div {
-        width: 100%;
-        text-align: center;
-        border-radius: 5px;
-        padding: 15px 5px 15px 5px;
-        font-size: 14px;
-        background: #eee;
-        color: darken(#eee, 45%);
-
-        i {
-          font-size: 30px;
-        }
-      }
-
-      div:hover {
-        cursor: pointer;
-        color: darken(#c4d8e2, 55%);
-      }
     }
   }
 
@@ -74,7 +55,16 @@ section.main-content {
     position: relative;
     margin-bottom: 30px;
     border: 1px solid #c4d8e2;
+    background: #c4d8e2;
     @include clearfix;
+
+    p {
+      font-size: 14px;
+      color: #267196;
+      text-align: center;
+      margin-top: 25px;
+      font-family: Arial, sans-serif;
+    }
 
     h3 {
       background: #c4d8e2;
@@ -84,27 +74,45 @@ section.main-content {
 
     .search-box {
       position: relative;
+      height: 150px;
       @include span-columns(7);
       @include clearfix;
-      height: 150px;
     }
 
     .search-roles {
       @include span-columns(5);
 
       ul {
-        padding: 15px;
+        padding: 15px 0px;
         padding-top: 30px;
-        border-left: 1px dotted #ccc;
       }
 
       ul li {
+        padding: 5px 10px;
         font-size: 14px;
-        margin-bottom: 20px;
-        color: #267196;
+        margin-bottom: 10px;
 
         i {
           margin-right: 5px;
+        }
+      }
+
+      .unchecked-icon, .checked-icon {
+        float: right;
+        margin-top: 3px;
+      }
+
+      .checked-icon {
+        display: none;
+      }
+
+      ul li.checked {
+        .unchecked-icon {
+          display: none;
+        }
+
+        .checked-icon {
+          display: inline-block;
         }
       }
     }
@@ -113,7 +121,7 @@ section.main-content {
       position: absolute;
       left: 15px;      
       width: 100%;
-      top: 40%;
+      top: 20%;
 
       .search-input {
         position: relative;
@@ -149,6 +157,10 @@ section.main-content {
 }
 
 aside {
+  h3 {
+    color: #333;
+  }
+
   // Training Opportunities
   ul.upcoming-training {
     margin-bottom: 15px;
@@ -159,10 +171,15 @@ aside {
       float: right;
       position: relative;
       top: -5px;
+      color: #000;
 
       i {
         margin-left: 5px;
       }
+    }
+
+    a:hover {
+      color: #267196;
     }
 
     li {
@@ -228,6 +245,7 @@ aside {
     figcaption {
       color: #666;
       line-height: 1.4em;
+      width: 225px;
     }
 
     .watch-video {
@@ -262,7 +280,6 @@ aside {
 
       footer {
         margin-top: 5px;
-        margin-left: 25px;
         font-style: italic;
         font-size: 12px;
         line-height: 1.25em;

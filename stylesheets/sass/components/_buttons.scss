@@ -1,0 +1,35 @@
+a.action-button {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 15px 5px 15px 5px;
+  font-size: 14px;
+  background: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  border-bottom: 5px solid darken(#c4d8e2, 10%);
+
+  i {
+    font-size: 30px;
+    color: darken(#c4d8e2, 15%)
+  }
+}
+
+a.action-button:hover {
+  background: lighten(#c4d8e2, 5%);
+  border-bottom: 5px solid darken(#c4d8e2, 5%);
+  cursor: pointer;
+}
+
+a.action-button:active
+{
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  border-bottom: 1px solid darken(#c4d8e2, 5%);
+}
+
+a.animate {
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
