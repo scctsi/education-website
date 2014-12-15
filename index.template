@@ -1,0 +1,72 @@
+{embed="new-embeds/head" education="true"}
+{embed="new-embeds/header"}
+
+  <section class="content">
+    <aside>
+      <h2>Education Home</h2>
+      <h3>Upcoming Training Opportunities</h3>
+      <ul class="upcoming-training">
+        <li>
+          <div class="event-date"><span class="event-month">Aug</span><span class="event-day">7</span></div>
+          <div class="event-details"><a href="#">Good Research Practices for Pre-Clinical Research: Why is this important for researchers in Academia</a></div>
+        </li>
+        <li>
+          <div class="event-date"><span class="event-month">Aug</span><span class="event-day">7</span></div>
+          <div class="event-details"><a href="#">Good Research Practices for Pre-Clinical Research: Why is this important for researchers in Academia</a></div>
+        </li>
+        <li>
+          <div class="event-date"><span class="event-month">Aug</span><span class="event-day">7</span></div>
+          <div class="event-details"><a href="#">Good Research Practices for Pre-Clinical Research: Why is this important for researchers in Academia</a></div>
+        </li>
+        <li class="view-all"><a href="#">View All<i class="fa fa-angle-double-right"></i></a></li>
+      </ul>
+
+      <h3>Featured Resource</h3>
+      <figure>
+        <img src="images/featured_video.png"></img><div class="watch-video">View Now<i class="fa fa-play"></i></div>
+        <figcaption>Featured lecture: How to conduct research in diverse, urban populations</figcaption>
+      </figure>
+    </aside>
+
+    <section class="main-content">
+
+      <h2><i class="fa fa-bullhorn"></i>Training Awards: Application deadline December 6, 2014</h2>
+      <section class="search">
+        <section class="search-box">
+          <form>
+            <div class="search-input"><input type="text" placeholder="What would you like to learn?"/><button><i class="fa fa-search"></i></button></div>
+            <p>Access more than 50<br/> courses and resources</p>
+          </form>
+        </section>
+        <section class="search-roles">
+          <ul>
+            <li class="checked"><i class="fa fa-group"></i>Research Professionals<i class="fa fa-square-o unchecked-icon"></i><i class="fa fa-check-square-o checked-icon"></i></li>
+            <li><i class="fa fa-home"></i>Community Health Workers<i class="fa fa-square-o unchecked-icon"></i><i class="fa fa-check-square-o checked-icon"></i></li>
+            <li><i class="fa fa-thumbs-o-up"></i>Research Participants<i class="fa fa-square-o unchecked-icon"></i><i class="fa fa-check-square-o checked-icon"></i></li>
+          </ul>
+        </section>
+      </section>
+
+      <section class="awards">
+        <h2>Our Awardees<a href="#">View All<i class="fa fa-angle-double-right"></i></a></h2>
+        <section class="awardees">
+
+          <!-- START Super Simple Slider -->
+          <div class="slider">
+            <div class="testimonial"><img src="images/awardee-thumbnails/gabriel_zada.png"/><blockquote>"The teamwork has been one of my favorite aspects of the program."<footer><cite>Gabriel Zada, MD, assistant clinical professor in the Department of Neurological Surgery at USC</cite></footer></blockquote></div>
+            <div class="testimonial"><img src="images/awardee-thumbnails/gabriel_zada.png"/><blockquote>"The teamwork has been one of my favorite aspects of the program."<footer><cite>Gabriel Zada, MD, assistant clinical professor in the Department of Neurological Surgery at USC</cite></footer></blockquote></div>
+            <div class="testimonial"><img src="images/awardee-thumbnails/gabriel_zada.png"/><blockquote>"The teamwork has been one of my favorite aspects of the program."<footer><cite>Gabriel Zada, MD, assistant clinical professor in the Department of Neurological Surgery at USC</cite></footer></blockquote></div>
+          </div>
+          <!-- END Super Simple Slider -->
+
+        </section>
+        <section class="apply">
+          <a class="action-button animate"><i class="fa fa-pencil-square-o"></i><br/>Apply for a KL2 or TL1 Research Training Award</a>
+        </section>
+      </section>
+
+    </section>
+  </section>
+
+</div><!-- END WRAPPER -->
+{embed="new-embeds/footer"}

@@ -60,6 +60,10 @@ body.course-search section.search-results {
   table {
     width: 100%;
 
+    tr.mix {
+      display: none;
+    }
+    
     tr {
       td:first-child {
         padding-right: 15px;

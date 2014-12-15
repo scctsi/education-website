@@ -1,4 +1,4 @@
-a {
+section.content a, section.content a:link, section.content a:visited, section.content a:hover, section.content a:active {
   color: #267196;
 }
 
@@ -158,6 +158,15 @@ section.content:after {
 
 #footer-social .footer-social-nav-column ul li a:hover {
   border-bottom: 1px dotted #FFFFFF;
+}
+
+footer.sub-footer {
+  width: 100%;
+}
+footer.sub-footer:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 aside {
@@ -706,6 +715,9 @@ body.course-search section.search-results h3 {
 body.course-search section.search-results table {
   width: 100%;
 }
+body.course-search section.search-results table tr.mix {
+  display: none;
+}
 body.course-search section.search-results table tr td:first-child {
   padding-right: 15px;
 }
@@ -772,15 +784,15 @@ body.course section.content header figure {
   float: right;
   padding: 0;
   margin: 0;
-  height: 175px;
+  height: 225px;
 }
 body.course section.content header figure img {
   width: 400px;
-  height: 175px;
+  height: 225px;
 }
 body.course section.content header figure figcaption {
   position: relative;
-  top: -115px;
+  top: -140px;
   left: 25%;
   text-align: center;
   padding: 15px;
@@ -820,6 +832,10 @@ body.course section.content section.course-details p {
 }
 body.course section.content section.course-details ul {
   list-style: square;
+  margin-left: 30px;
+}
+body.course section.content section.course-details ol {
+  list-style: decimal;
   margin-left: 30px;
 }
 body.course section.content aside {

@@ -149,3 +149,8 @@
 {
 	border-bottom: 1px dotted #FFFFFF;
 }
+
+footer.sub-footer {
+	@include clearfix;
+	width: 100%;
+}

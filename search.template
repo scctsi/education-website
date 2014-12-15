@@ -1,0 +1,91 @@
+{embed="new-embeds/head" education="true"}
+{embed="new-embeds/header" body_class="course-search"}
+
+      <section class="content">
+        <aside>
+          <h2>Filter by<button id="show_all"><i class="fa fa-filter"></i>Clear All Filters</button></h2>
+
+          <form id="filters">
+
+            <fieldset>
+              <h3>Competencies Sought</h3>
+              <ul>
+                <li><div id="competencies_sought_bioinformatics" class="checkbox"><input type="checkbox" value=".bioinformatics"/><label>Bioinformatics</label></div></li>
+                <li><div id="competencies_sought_community_engagement" class="checkbox"><input type="checkbox" value=".community-engagement"/><label>Community Engagement</label></div></li>
+                <li><div id="competencies_sought_innovation" class="checkbox"><input type="checkbox" value=".innovation"/><label>Innovation</label></div></li>
+                <li><div id="competencies_sought_mentoring" class="checkbox"><input type="checkbox" value=".mentoring"/><label>Mentoring</label></div></li>
+                <li><div id="competencies_sought_research_methodology" class="checkbox"><input type="checkbox" value=".research-methodology"/><label>Research Methodology</label></div></li>
+                <li><div id="competencies_sought_responsible_conduct_of_research" class="checkbox"><input type="checkbox" value=".responsible-conduct-of-research"/><label>Responsible Conduct of Research</label></div></li>
+                <li><div id="competencies_sought_scientific_communication" class="checkbox"><input type="checkbox" value=".scientific-communication"/><label>Scientific Communication</label></div></li>
+                <li><div id="competencies_sought_study_design" class="checkbox"><input type="checkbox" value=".study-design"/><label>Study Design</label></div></li>
+                <li><div id="competencies_sought_team_science_and_leadership" class="checkbox"><input type="checkbox" value=".research-methodology"/><label>Team Science & Leadership</label></div></li>
+              </ul>
+            </fieldset>
+            
+            <fieldset>
+              <h3>Who You Are</h3>
+              <ul>
+                <li><div id="who_you_are_community_health_worker" class="checkbox"><input type="checkbox" value=".community-health-worker"/><label>Community Health Worker</label></div></li>
+                <li><div id="who_you_are_research_professional" class="checkbox"><input type="checkbox" value=".research-professional"/><label>Research Professinal</label></div></li>
+                <li><div id="who_you_are_student" class="checkbox"><input type="checkbox" value=".student"/><label>Student</label></div></li>
+              </ul>
+            </fieldset>
+
+            <fieldset>
+              <h3>Stage of Research</h3>
+              <ul>
+                <li><div id="stage_of_research_lab_basic_science" class="checkbox"><input type="checkbox" value=".lab-basic-science"/><label>Lab/Basic Science</label></div></li>
+                <li><div id="stage_of_research_pre_clinical" class="checkbox"><input type="checkbox" value=".pre-clinical"/><label>Pre-Clinical</label></div></li>
+                <li><div id="stage_of_research_clinical" class="checkbox"><input type="checkbox" value=".clinical"/><label>Clinical</label></div></li>
+                <li><div id="stage_of_research_community" class="checkbox"><input type="checkbox" value=".community"/><label>Community</label></div></li>
+                <li><div id="stage_of_research_outcomes" class="checkbox"><input type="checkbox" value=".outcomes"/><label>Outcomes</label></div></li>
+              </ul>
+            </fieldset>
+
+            <fieldset>
+              <h3>Resource Format</h3>
+              <ul>
+                <li><div id="resource_format_classroom" class="checkbox"><input type="checkbox" value=".classroom"/><label>Classroom</label></div></li>
+                <li><div id="resource_online_video" class="checkbox"><input type="checkbox" value=".online-video"/><label>Online Video</label></div></li>
+                <li><div id="resource_format_presentation_slides" class="checkbox"><input type="checkbox" value=".presentation-slides"/><label>Presentation Slides</label></div></li>
+              </ul>
+            </fieldset>
+
+          </form>
+
+        </aside>
+
+        <section class="search-results">
+          <h1>Clinical and Translational Research Training</h1>
+          <table>
+            <tbody>
+              {exp:channel:categories channel="courses"}
+              <tr>
+                <td><img src="images/course-thumbnails/course_1.png"></img></td>
+                <td>
+                  <h2><a href="#">{title}</a></h2>
+                  <p>with <a href="#">Jonathen Samet</a>, MD, MS; <a href="#">Lourdes Baezconde-Garbanati</a>, PhD; <a href="#">Katrina Kubicek</a>, PhD; <a href="#">Jennifer Unger</a>, PhD; <a href="#">William Vega</a>, PhD;</p>
+                  <section class="metadata">
+                    <section>
+                      <h3>Upcoming Course</h3>
+                      <ul class="details">
+                        <li>N/A</li>
+                      </ul>
+                    </section>
+                    <section>
+                      <h3>Resource</h3>
+                      <ul class="details">
+                        <li>9 short videos, approx. 1:10</li>
+                      </ul>
+                    </section>
+                  </section>
+                </td>
+              </tr>
+              {/exp:channel:categories}
+            </tbody>
+          </table>
+        </section>
+      </section>
+
+</div><!-- END WRAPPER -->
+{embed="new-embeds/footer"}
