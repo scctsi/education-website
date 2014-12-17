@@ -161,12 +161,29 @@ section.content:after {
 }
 
 footer.sub-footer {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
   width: 100%;
 }
-footer.sub-footer:after {
-  content: "";
-  display: table;
-  clear: both;
+footer.sub-footer:last-child {
+  margin-right: 0;
+}
+
+section.sub-footer {
+  margin-top: 15px;
+  padding-top: 5px;
+  border-top: 1px dotted #ccc;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+}
+section.sub-footer:last-child {
+  margin-right: 0;
+}
+section.sub-footer i {
+  margin-left: 5px;
 }
 
 aside {
@@ -286,6 +303,7 @@ button i {
   position: relative;
   display: block;
   overflow: hidden;
+  min-height: 155px;
 }
 
 .ssslide {
@@ -317,14 +335,14 @@ button i {
 }
 
 .sssprev {
-  left: 325px;
-  top: 55px;
+  left: 115px;
+  top: 60px;
   background-position: 0 50%;
 }
 
 .sssnext {
   right: 0;
-  top: 55px;
+  top: 60px;
   background-position: -26px 50%;
 }
 
@@ -366,11 +384,88 @@ a.animate {
   transition: all 0.1s;
 }
 
+.gsc-control-cse {
+  width: 0px;
+  height: 0px;
+  margin-top: 100px;
+}
+
+.gsc-control-wrapper-cse {
+  margin-top: -15px;
+}
+
+form.gsc-search-box {
+  position: relative;
+  top: -100px;
+  left: 15px;
+  width: 100%;
+}
+form.gsc-search-box td.gsc-input input {
+  padding: 10px 15px;
+  border: none;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 18px;
+  color: #000;
+  border: 1px solid #c4d8e2;
+  border-radius: 25px;
+  outline: none;
+}
+form.gsc-search-box input[type="button"] {
+  position: absolute;
+  left: 235px;
+  top: 17px;
+  font-size: 1px;
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+  background: #fff;
+  border-left: 1px dotted #ccc;
+  font-weight: normal;
+  background: url(../images/search.png) no-repeat 40% 50%;
+}
+form.gsc-search-box td.gsc-clear-button {
+  display: none;
+}
+
+.course-text-search {
+  margin-bottom: 50px;
+}
+.course-text-search:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.course-text-search .gsc-control-cse {
+  width: 0px;
+  height: 0px;
+  margin-top: 0px;
+}
+.course-text-search form.gsc-search-box {
+  top: 0px;
+  margin-left: -35px;
+  width: 100%;
+}
+.course-text-search form.gsc-search-box td.gsc-input input {
+  padding: 10px 15px;
+  border: none;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 18px;
+  color: #000;
+  border: 1px solid #c4d8e2;
+  border-radius: 25px;
+  outline: none;
+  width: 450px;
+}
+.course-text-search form.gsc-search-box input[type="button"] {
+  left: 395px;
+}
+
 section.main-content {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 65.88078%;
+  margin-right: 0;
 }
 section.main-content:last-child {
   margin-right: 0;
@@ -403,6 +498,9 @@ section.main-content h2 a {
   margin-right: 5px;
   letter-spacing: 0px;
 }
+section.main-content h2.deadline {
+  text-align: right;
+}
 section.main-content h3 {
   background: #fff;
   font-size: 18px;
@@ -433,6 +531,7 @@ section.main-content .search {
   margin-bottom: 30px;
   border: 1px solid #c4d8e2;
   background: #c4d8e2;
+  top: -5px;
 }
 section.main-content .search:after {
   content: "";
@@ -446,6 +545,16 @@ section.main-content .search p {
   margin-top: 25px;
   font-family: Arial, sans-serif;
 }
+section.main-content .search h2 {
+  background: #fff;
+  background: #c4d8e2;
+  text-align: center;
+  color: #333;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  letter-spacing: 2px;
+}
 section.main-content .search h3 {
   background: #c4d8e2;
   text-align: center;
@@ -453,7 +562,7 @@ section.main-content .search h3 {
 }
 section.main-content .search .search-box {
   position: relative;
-  height: 150px;
+  height: 25px;
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -477,8 +586,7 @@ section.main-content .search .search-roles:last-child {
   margin-right: 0;
 }
 section.main-content .search .search-roles ul {
-  padding: 15px 0px;
-  padding-top: 30px;
+  padding: 0px 0px 15px 0px;
 }
 section.main-content .search .search-roles ul li {
   padding: 5px 10px;
@@ -501,43 +609,6 @@ section.main-content .search .search-roles ul li.checked .unchecked-icon {
 section.main-content .search .search-roles ul li.checked .checked-icon {
   display: inline-block;
 }
-section.main-content .search form {
-  position: absolute;
-  left: 15px;
-  width: 100%;
-  top: 20%;
-}
-section.main-content .search form .search-input {
-  position: relative;
-}
-section.main-content .search form .search-input:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-section.main-content .search form .search-input input {
-  padding: 10px 15px;
-  border: none;
-  width: 95%;
-  font-family: "PT Sans", Arial, sans-serif;
-  font-size: 18px;
-  color: #000;
-  border: 1px solid #c4d8e2;
-  border-radius: 25px;
-  float: left;
-  outline: none;
-}
-section.main-content .search form .search-input button {
-  width: 45px;
-  border: none;
-  border-left: 1px dotted #ccc;
-  position: absolute;
-  left: 180px;
-  top: 40px;
-  font-size: 15px;
-  color: #000;
-  padding: 5px 15px;
-}
 
 aside h3 {
   color: #333;
@@ -552,7 +623,6 @@ aside ul.upcoming-training:after {
   clear: both;
 }
 aside ul.upcoming-training a {
-  float: right;
   position: relative;
   top: -5px;
   color: #000;
@@ -577,6 +647,7 @@ aside ul.upcoming-training li:last-child {
 aside ul.upcoming-training li.view-all {
   margin-top: -15px;
   margin-bottom: 5px;
+  float: right;
 }
 aside ul.upcoming-training .event-date {
   border: 1px dotted #CCCCCC;
@@ -615,8 +686,8 @@ aside figure img {
   width: 80%;
 }
 aside figure figcaption {
-  color: #666;
-  line-height: 1.4em;
+  color: #999;
+  line-height: 1.2em;
   width: 225px;
 }
 aside figure .watch-video {
@@ -639,11 +710,12 @@ aside figure .watch-video i {
 .slider .testimonial blockquote {
   float: right;
   width: 275px;
-  font-size: 16px;
+  font-size: 15px;
   color: #666;
+  line-height: 1.25em;
 }
 .slider .testimonial blockquote footer {
-  margin-top: 5px;
+  margin-top: 10px;
   font-style: italic;
   font-size: 12px;
   line-height: 1.25em;
@@ -722,10 +794,7 @@ body.course-search section.search-results table tr td:first-child {
   padding-right: 15px;
 }
 body.course-search section.search-results table tr td:nth-child(2) {
-  padding-right: 15px;
-}
-body.course-search section.search-results table tr td:nth-child(3) {
-  width: 125px;
+  padding-right: 0px;
 }
 body.course-search section.search-results table tr ul.details {
   padding-bottom: 5px;
@@ -759,6 +828,13 @@ body.course-search section.search-results table tr td section.metadata section:l
 body.course-search section.search-results table tr td section.metadata section:last-child {
   border-right: none;
   padding-left: 15px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+}
+body.course-search section.search-results table tr td section.metadata section:last-child:last-child {
+  margin-right: 0;
 }
 
 body.course section.content header {
@@ -887,6 +963,10 @@ body.course section.content aside ul.instructors > li:last-child:after {
   display: table;
   clear: both;
 }
+body.course section.content aside ul.instructors {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
 body.course section.content aside ul.instructors h3 {
   padding: 0px;
   margin-bottom: 0px;
@@ -902,6 +982,18 @@ body.course section.content aside ul.instructors ul.details {
   float: right;
   width: 145px;
   font-size: 13px;
+}
+body.course section.content aside h2.share-heading {
+  margin-bottom: 10px;
+}
+body.course section.content aside .addthis_sharing_toolbox {
+  float: right;
+  margin-top: -40px;
+}
+body.course section.content aside .addthis_sharing_toolbox:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /*# sourceMappingURL=education.css.map */

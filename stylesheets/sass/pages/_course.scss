@@ -123,6 +123,9 @@ body.course section.content {
     }
 
     ul.instructors {
+      margin-top: 5px;
+      margin-bottom: 10px;
+
       h3 {
         padding: 0px;
         margin-bottom: 0px;
@@ -142,6 +145,16 @@ body.course section.content {
         width: 145px;
         font-size: 13px;
       }
+    }
+
+    h2.share-heading {
+      margin-bottom: 10px;
+    }
+
+    .addthis_sharing_toolbox {
+      float: right;
+      margin-top: -40px;
+      @include clearfix;
     }
   }
 }

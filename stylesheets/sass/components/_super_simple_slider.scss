@@ -5,6 +5,7 @@
 	position: relative;
 	display: block;
 	overflow: hidden;
+  min-height: 155px;
 }
 
 .ssslide {
@@ -36,14 +37,14 @@
 }
 
 .sssprev {
-	left: 325px;
-	top: 55px;
+	left: 115px;
+	top: 60px;
 	background-position: 0 50%;
 }
 
 .sssnext {
 	right: 0;
-	top: 55px;
+	top: 60px;
 	background-position: -26px 50%;
 }
 

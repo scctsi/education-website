@@ -1,5 +1,6 @@
 section.main-content {
   @include span-columns(8);
+  @include omega;
 
   h2 {
     i {
@@ -33,6 +34,10 @@ section.main-content {
     letter-spacing: 1px;
   }
 
+  h2.deadline {
+    text-align: right;
+  }
+
   h3 {
     background: #fff;
     font-size: 18px;
@@ -56,6 +61,7 @@ section.main-content {
     margin-bottom: 30px;
     border: 1px solid #c4d8e2;
     background: #c4d8e2;
+    top: -5px;
     @include clearfix;
 
     p {
@@ -66,6 +72,17 @@ section.main-content {
       font-family: Arial, sans-serif;
     }
 
+    h2 {
+      background: #fff;
+      background: #c4d8e2;
+      text-align: center;
+      color: #333;
+      font-size: 18px;
+      padding-top: 20px;
+      padding-bottom: 0px;
+      letter-spacing: 2px;
+    }
+
     h3 {
       background: #c4d8e2;
       text-align: center;
@@ -74,7 +91,7 @@ section.main-content {
 
     .search-box {
       position: relative;
-      height: 150px;
+      height: 25px;
       @include span-columns(7);
       @include clearfix;
     }
@@ -83,8 +100,7 @@ section.main-content {
       @include span-columns(5);
 
       ul {
-        padding: 15px 0px;
-        padding-top: 30px;
+        padding: 0px 0px 15px 0px;
       }
 
       ul li {
@@ -116,43 +132,6 @@ section.main-content {
         }
       }
     }
-
-    form {
-      position: absolute;
-      left: 15px;      
-      width: 100%;
-      top: 20%;
-
-      .search-input {
-        position: relative;
-        @include clearfix;
-
-        input {
-          padding: 10px 15px;
-          border: none;
-          width: 95%;
-          font-family: $font-stack;
-          font-size: 18px;
-          color: #000;
-          border: 1px solid #c4d8e2;
-          border-radius: 25px;
-          float: left;
-          outline: none;
-        }
-
-        button {
-          width: 45px;
-          border: none;
-          border-left: 1px dotted #ccc;
-          position: absolute;
-          left: 180px;
-          top: 40px;
-          font-size: 15px;
-          color: #000;
-          padding: 5px 15px;
-        }
-      }
-    }
   }
 }
 
@@ -168,7 +147,6 @@ aside {
     @include clearfix;
 
     a {
-      float: right;
       position: relative;
       top: -5px;
       color: #000;
@@ -194,6 +172,7 @@ aside {
     li.view-all {
       margin-top: -15px;
       margin-bottom: 5px;
+      float: right;
     }
 
     .event-date
@@ -243,8 +222,8 @@ aside {
     }
 
     figcaption {
-      color: #666;
-      line-height: 1.4em;
+      color: #999;
+      line-height: 1.2em;
       width: 225px;
     }
 
@@ -275,11 +254,12 @@ aside {
     blockquote {
       float: right;
       width: 275px;
-      font-size: 16px;
+      font-size: 15px;
       color: #666;
+      line-height: 1.25em;
 
       footer {
-        margin-top: 5px;
+        margin-top: 10px;
         font-style: italic;
         font-size: 12px;
         line-height: 1.25em;

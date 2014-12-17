@@ -151,6 +151,16 @@
 }
 
 footer.sub-footer {
-	@include clearfix;
-	width: 100%;
+	@include span-columns(12);
+}
+
+section.sub-footer {
+  margin-top: 15px;
+  padding-top: 5px;
+  border-top: 1px dotted #ccc;
+  @include span-columns(12);
+
+  i {
+  	margin-left: 5px;
+  }
 }
