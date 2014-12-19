@@ -35,7 +35,7 @@ section.main-content {
   }
 
   h2.deadline {
-    text-align: right;
+    text-align: left;
   }
 
   h3 {
@@ -59,28 +59,29 @@ section.main-content {
   .search {
     position: relative;
     margin-bottom: 30px;
-    border: 1px solid #c4d8e2;
     background: #c4d8e2;
     top: -5px;
     @include clearfix;
-
-    p {
-      font-size: 14px;
-      color: #267196;
-      text-align: center;
-      margin-top: 25px;
-      font-family: Arial, sans-serif;
-    }
 
     h2 {
       background: #fff;
       background: #c4d8e2;
       text-align: center;
-      color: #333;
-      font-size: 18px;
-      padding-top: 20px;
+      padding-top: 15px;
       padding-bottom: 0px;
       letter-spacing: 2px;
+
+      a:link, a:visited, a:hover, a:active {
+        color: #333;
+        text-align: center;
+        float: none;
+        margin-top: 0px;
+        padding-left: 0px;
+        border-left: none;
+        font-size: 18px;
+        margin-right: 0px;
+        letter-spacing: 1px;
+      }
     }
 
     h3 {
@@ -100,7 +101,7 @@ section.main-content {
       @include span-columns(5);
 
       ul {
-        padding: 0px 0px 15px 0px;
+        padding: 0px 0px 10px 0px;
       }
 
       ul li {
@@ -135,7 +136,11 @@ section.main-content {
   }
 }
 
-aside {
+body.education-home aside {
+  h3, ul, figure {
+    margin-left: 10px;
+  }
+
   h3 {
     color: #333;
   }
@@ -147,8 +152,6 @@ aside {
     @include clearfix;
 
     a {
-      position: relative;
-      top: -5px;
       color: #000;
 
       i {
@@ -161,7 +164,7 @@ aside {
     }
 
     li {
-      margin-bottom: 25px;
+      margin-bottom: 12px;
       @include clearfix;
     }
 
@@ -170,7 +173,7 @@ aside {
     }
 
     li.view-all {
-      margin-top: -15px;
+      margin-top: -5px;
       margin-bottom: 5px;
       float: right;
     }
@@ -179,7 +182,7 @@ aside {
     {
       border: 1px dotted #CCCCCC;
       font-weight: bold;
-      width: 50px;
+      width: 45px;
       text-align: center;
       float: left;
       margin-right: 15px;
@@ -202,14 +205,13 @@ aside {
       font-size: 18px;
       display: block;
       font-weight: normal;
-      padding: 5px;
       text-align: center;
     }
 
     .event-details
     {
       float: right;
-      width: 220px;
+      width: 215px;
       line-height: 1.4em;
     }
   }
@@ -222,9 +224,10 @@ aside {
     }
 
     figcaption {
-      color: #999;
+      color: #333;
       line-height: 1.2em;
       width: 225px;
+      font-size: 12px;
     }
 
     .watch-video {

@@ -33,7 +33,8 @@ body.course-search section.content aside {
 }
 
 body.course-search section.search-results {
-  padding-left: 15px;
+  border-left: 1px dotted #ccc;
+  padding-left: 20px;
   font-size: 13px;
   @include span-columns(9);
 

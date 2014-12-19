@@ -47,8 +47,11 @@ form.gsc-search-box {
 }
 
 .course-text-search {
+	margin-top: -10px;
+  margin-bottom: 15px;
   @include clearfix;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
+	border-bottom: 1px dotted #ccc;
 
 	.gsc-control-cse {
 		width: 0px;

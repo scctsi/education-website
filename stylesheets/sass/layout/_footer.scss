@@ -155,12 +155,19 @@ footer.sub-footer {
 }
 
 section.sub-footer {
-  margin-top: 15px;
   padding-top: 5px;
   border-top: 1px dotted #ccc;
   @include span-columns(12);
 
   i {
   	margin-left: 5px;
+  }
+
+  span.about {
+  	margin-right: 25px;
+  }
+
+  span.separator {
+  	margin-right: 25px;
   }
 }

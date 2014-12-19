@@ -29,23 +29,25 @@
 }
 
 .sssnext, .sssprev {
-	width: 25px;
+	width: 37px;
 	height: 100%;
 	margin: 0;
 	position: absolute;
-	background: url('../images/arr.png') no-repeat;
+	background: url('../images/arrows.png') no-repeat;
 }
 
 .sssprev {
-	left: 115px;
-	top: 60px;
+	left: 0px;
+	top: 55px;
 	background-position: 0 50%;
+	display: none;
 }
 
 .sssnext {
 	right: 0;
-	top: 60px;
-	background-position: -26px 50%;
+	top: 55px;
+	background-position: -37px 50%;
+	display: none;
 }
 
 .sssprev:hover, .sssnext:hover {
