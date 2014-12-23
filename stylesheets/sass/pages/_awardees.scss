@@ -1,0 +1,62 @@
+body.education-awardees section.content {
+}
+
+body.education-awardees section.main-content {
+  @include span-columns(8);
+  @include omega;
+
+  h2 {
+    font-family: "PT Sans", Arial, sans-serif;
+    padding-bottom: 0px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 25px;
+    background: none;
+    padding-left: 0px;
+  }
+
+  h3 {
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", Arial, sans-serif;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    margin-top: 30px;
+    background: #eee;
+    padding: 5px 10px;
+  }
+
+  article {
+    margin-bottom: 25px;
+    @include clearfix;
+
+    figure {
+      float: left;
+      width: 105px;
+    }
+
+    ul {
+      float: right;
+      width: 475px;
+
+      li {
+        margin-bottom: 5px;
+        @include clearfix;
+
+        span.field-name {
+          font-weight: bold;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+
+body.education-awardees aside {
+  padding-top: 55px;
+  padding-right: 0px;
+  @include span-columns(4);
+}

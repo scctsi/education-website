@@ -470,17 +470,17 @@ form.gsc-search-box td.gsc-clear-button {
   left: 395px;
 }
 
-section.main-content {
+body.education-home section.main-content {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 65.88078%;
   margin-right: 0;
 }
-section.main-content:last-child {
+body.education-home section.main-content:last-child {
   margin-right: 0;
 }
-section.main-content h2 {
+body.education-home section.main-content h2 {
   padding: 8px 10px;
   background: #eee;
   color: #666;
@@ -491,15 +491,15 @@ section.main-content h2 {
   font-size: 16px;
   letter-spacing: 1px;
 }
-section.main-content h2 i {
+body.education-home section.main-content h2 i {
   margin-left: 5px;
 }
-section.main-content h2 i.fa-bullhorn {
+body.education-home section.main-content h2 i.fa-bullhorn {
   color: #990000;
   margin-right: 5px;
   margin-left: 0px;
 }
-section.main-content h2 a {
+body.education-home section.main-content h2 a {
   float: right;
   margin-top: 3px;
   padding-left: 15px;
@@ -508,46 +508,46 @@ section.main-content h2 a {
   margin-right: 5px;
   letter-spacing: 0px;
 }
-section.main-content h2.deadline {
+body.education-home section.main-content h2.deadline {
   text-align: left;
 }
-section.main-content h3 {
+body.education-home section.main-content h3 {
   background: #fff;
   font-size: 18px;
   color: #666;
   font-weight: normal;
   padding: 5px 0px;
 }
-section.main-content .awards .awardees {
+body.education-home section.main-content .awards .awardees {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 65.88078%;
 }
-section.main-content .awards .awardees:last-child {
+body.education-home section.main-content .awards .awardees:last-child {
   margin-right: 0;
 }
-section.main-content .awards .apply {
+body.education-home section.main-content .awards .apply {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 31.76157%;
 }
-section.main-content .awards .apply:last-child {
+body.education-home section.main-content .awards .apply:last-child {
   margin-right: 0;
 }
-section.main-content .search {
+body.education-home section.main-content .search {
   position: relative;
   margin-bottom: 30px;
   background: #c4d8e2;
   top: -5px;
 }
-section.main-content .search:after {
+body.education-home section.main-content .search:after {
   content: "";
   display: table;
   clear: both;
 }
-section.main-content .search h2 {
+body.education-home section.main-content .search h2 {
   background: #fff;
   background: #c4d8e2;
   text-align: center;
@@ -555,7 +555,7 @@ section.main-content .search h2 {
   padding-bottom: 0px;
   letter-spacing: 2px;
 }
-section.main-content .search h2 a:link, section.main-content .search h2 a:visited, section.main-content .search h2 a:hover, section.main-content .search h2 a:active {
+body.education-home section.main-content .search h2 a:link, body.education-home section.main-content .search h2 a:visited, body.education-home section.main-content .search h2 a:hover, body.education-home section.main-content .search h2 a:active {
   color: #333;
   text-align: center;
   float: none;
@@ -566,12 +566,12 @@ section.main-content .search h2 a:link, section.main-content .search h2 a:visite
   margin-right: 0px;
   letter-spacing: 1px;
 }
-section.main-content .search h3 {
+body.education-home section.main-content .search h3 {
   background: #c4d8e2;
   text-align: center;
   color: #000;
 }
-section.main-content .search .search-box {
+body.education-home section.main-content .search .search-box {
   position: relative;
   height: 25px;
   float: left;
@@ -579,45 +579,45 @@ section.main-content .search .search-box {
   margin-right: 2.35765%;
   width: 57.35098%;
 }
-section.main-content .search .search-box:last-child {
+body.education-home section.main-content .search .search-box:last-child {
   margin-right: 0;
 }
-section.main-content .search .search-box:after {
+body.education-home section.main-content .search .search-box:after {
   content: "";
   display: table;
   clear: both;
 }
-section.main-content .search .search-roles {
+body.education-home section.main-content .search .search-roles {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 40.29137%;
 }
-section.main-content .search .search-roles:last-child {
+body.education-home section.main-content .search .search-roles:last-child {
   margin-right: 0;
 }
-section.main-content .search .search-roles ul {
+body.education-home section.main-content .search .search-roles ul {
   padding: 0px 0px 10px 0px;
 }
-section.main-content .search .search-roles ul li {
+body.education-home section.main-content .search .search-roles ul li {
   padding: 5px 10px;
   font-size: 14px;
   margin-bottom: 10px;
 }
-section.main-content .search .search-roles ul li i {
+body.education-home section.main-content .search .search-roles ul li i {
   margin-right: 5px;
 }
-section.main-content .search .search-roles .unchecked-icon, section.main-content .search .search-roles .checked-icon {
+body.education-home section.main-content .search .search-roles .unchecked-icon, body.education-home section.main-content .search .search-roles .checked-icon {
   float: right;
   margin-top: 3px;
 }
-section.main-content .search .search-roles .checked-icon {
+body.education-home section.main-content .search .search-roles .checked-icon {
   display: none;
 }
-section.main-content .search .search-roles ul li.checked .unchecked-icon {
+body.education-home section.main-content .search .search-roles ul li.checked .unchecked-icon {
   display: none;
 }
-section.main-content .search .search-roles ul li.checked .checked-icon {
+body.education-home section.main-content .search .search-roles ul li.checked .checked-icon {
   display: inline-block;
 }
 
@@ -646,7 +646,7 @@ body.education-home aside ul.upcoming-training a:hover {
   color: #267196;
 }
 body.education-home aside ul.upcoming-training li {
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 body.education-home aside ul.upcoming-training li:after {
   content: "";
@@ -657,7 +657,8 @@ body.education-home aside ul.upcoming-training li:last-child {
   margin-bottom: 0px;
 }
 body.education-home aside ul.upcoming-training li.view-all {
-  margin-top: -5px;
+  font-size: 12px;
+  margin-top: -3px;
   margin-bottom: 5px;
   float: right;
 }
@@ -1007,6 +1008,79 @@ body.course section.content aside .addthis_sharing_toolbox:after {
   content: "";
   display: table;
   clear: both;
+}
+
+body.education-awardees section.main-content {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  margin-right: 0;
+}
+body.education-awardees section.main-content:last-child {
+  margin-right: 0;
+}
+body.education-awardees section.main-content h2 {
+  font-family: "PT Sans", Arial, sans-serif;
+  padding-bottom: 0px;
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 25px;
+  background: none;
+  padding-left: 0px;
+}
+body.education-awardees section.main-content h3 {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+  margin-top: 30px;
+  background: #eee;
+  padding: 5px 10px;
+}
+body.education-awardees section.main-content article {
+  margin-bottom: 25px;
+}
+body.education-awardees section.main-content article:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body.education-awardees section.main-content article figure {
+  float: left;
+  width: 105px;
+}
+body.education-awardees section.main-content article ul {
+  float: right;
+  width: 475px;
+}
+body.education-awardees section.main-content article ul li {
+  margin-bottom: 5px;
+}
+body.education-awardees section.main-content article ul li:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body.education-awardees section.main-content article ul li span.field-name {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+body.education-awardees aside {
+  padding-top: 55px;
+  padding-right: 0px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+}
+body.education-awardees aside:last-child {
+  margin-right: 0;
 }
 
 /*# sourceMappingURL=education.css.map */

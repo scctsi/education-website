@@ -1,0 +1,11 @@
+body.education-awardees section.main-content article {
+  height: 2000px;
+}
+body.education-awardees section.main-content article figure {
+  float: left;
+}
+body.education-awardees section.main-content article ul {
+  float: right;
+}
+
+/*# sourceMappingURL=_awardees.css.map */

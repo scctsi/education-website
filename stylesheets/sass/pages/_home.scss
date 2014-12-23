@@ -1,4 +1,4 @@
-section.main-content {
+body.education-home section.main-content {
   @include span-columns(8);
   @include omega;
 
@@ -164,7 +164,7 @@ body.education-home aside {
     }
 
     li {
-      margin-bottom: 12px;
+      margin-bottom: 20px;
       @include clearfix;
     }
 
@@ -173,7 +173,8 @@ body.education-home aside {
     }
 
     li.view-all {
-      margin-top: -5px;
+      font-size: 12px;
+      margin-top: -3px;
       margin-bottom: 5px;
       float: right;
     }
