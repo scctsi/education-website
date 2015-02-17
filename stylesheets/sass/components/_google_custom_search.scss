@@ -1,11 +1,13 @@
 .gsc-control-cse {
 	width: 0px;
 	height: 0px;
-	margin-top: 100px;
+	margin-top: 230px;
 }
 
 .gsc-control-wrapper-cse {
-	margin-top: -15px;
+	margin-top: -65px;
+	width: 0;
+	height: 0;
 }
 
 form.gsc-search-box {
@@ -17,19 +19,20 @@ form.gsc-search-box {
   td.gsc-input {
 		input {
 	    padding: 10px 15px;
-	    border: none;
 	    font-family: $font-stack;
 	    font-size: 18px;
 	    color: #000;
 	    border: 1px solid #c4d8e2;
 	    border-radius: 25px;
+	    border: 1px solid darken(#c4d8e2, 15%);
 	    outline: none;
+	    margin-left: -5px;
 		}
   }
 
   input[type="button"] {
     position: absolute;
-    left: 235px;
+    left: 485px;
     top: 17px;
     font-size: 1px;
     color: #fff;

@@ -194,6 +194,11 @@ section.sub-footer span.separator {
 aside {
   font-size: 13px;
   color: #000;
+  border: 3px solid #eee;
+  padding-bottom: 25px;
+  border-bottom: 3px solid #eee;
+  margin-bottom: 15px;
+  border-radius: 0px;
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -324,7 +329,7 @@ button i {
 
 .ssslide img {
   max-width: 100%;
-  height: auto;
+  height: 135px;
   margin: 0;
   padding: 0;
   position: relative;
@@ -394,11 +399,13 @@ a.animate {
 .gsc-control-cse {
   width: 0px;
   height: 0px;
-  margin-top: 100px;
+  margin-top: 230px;
 }
 
 .gsc-control-wrapper-cse {
-  margin-top: -15px;
+  margin-top: -65px;
+  width: 0;
+  height: 0;
 }
 
 form.gsc-search-box {
@@ -409,17 +416,18 @@ form.gsc-search-box {
 }
 form.gsc-search-box td.gsc-input input {
   padding: 10px 15px;
-  border: none;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 18px;
   color: #000;
   border: 1px solid #c4d8e2;
   border-radius: 25px;
+  border: 1px solid #91b6c9;
   outline: none;
+  margin-left: -5px;
 }
 form.gsc-search-box input[type="button"] {
   position: absolute;
-  left: 235px;
+  left: 485px;
   top: 17px;
   font-size: 1px;
   color: #fff;
@@ -481,7 +489,7 @@ body.education-home section.main-content:last-child {
   margin-right: 0;
 }
 body.education-home section.main-content h2 {
-  padding: 8px 10px;
+  padding: 10px;
   background: #eee;
   color: #666;
   font-weight: normal;
@@ -490,6 +498,7 @@ body.education-home section.main-content h2 {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 16px;
   letter-spacing: 1px;
+  border-radius: 0px;
 }
 body.education-home section.main-content h2 i {
   margin-left: 5px;
@@ -501,7 +510,6 @@ body.education-home section.main-content h2 i.fa-bullhorn {
 }
 body.education-home section.main-content h2 a {
   float: right;
-  margin-top: 3px;
   padding-left: 15px;
   border-left: 1px dotted #ccc;
   font-size: 15px;
@@ -518,7 +526,11 @@ body.education-home section.main-content h3 {
   font-weight: normal;
   padding: 5px 0px;
 }
+body.education-home section.main-content .awards {
+  margin-top: -20px;
+}
 body.education-home section.main-content .awards .awardees {
+  margin-top: -15px;
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -538,9 +550,11 @@ body.education-home section.main-content .awards .apply:last-child {
 }
 body.education-home section.main-content .search {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   background: #c4d8e2;
   top: -5px;
+  border-radius: 0px;
+  padding-bottom: 15px;
 }
 body.education-home section.main-content .search:after {
   content: "";
@@ -551,9 +565,10 @@ body.education-home section.main-content .search h2 {
   background: #fff;
   background: #c4d8e2;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 30px;
   padding-bottom: 0px;
   letter-spacing: 2px;
+  border-radius: 0px;
 }
 body.education-home section.main-content .search h2 a:link, body.education-home section.main-content .search h2 a:visited, body.education-home section.main-content .search h2 a:hover, body.education-home section.main-content .search h2 a:active {
   color: #333;
@@ -574,10 +589,11 @@ body.education-home section.main-content .search h3 {
 body.education-home section.main-content .search .search-box {
   position: relative;
   height: 25px;
+  margin-top: -90px;
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 57.35098%;
+  width: 100%;
 }
 body.education-home section.main-content .search .search-box:last-child {
   margin-right: 0;
@@ -587,38 +603,31 @@ body.education-home section.main-content .search .search-box:after {
   display: table;
   clear: both;
 }
-body.education-home section.main-content .search .search-roles {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 40.29137%;
-}
-body.education-home section.main-content .search .search-roles:last-child {
-  margin-right: 0;
-}
 body.education-home section.main-content .search .search-roles ul {
-  padding: 0px 0px 10px 0px;
+  margin-top: 95px;
+  margin-left: 20px;
+}
+body.education-home section.main-content .search .search-roles a:link {
+  color: #333;
 }
 body.education-home section.main-content .search .search-roles ul li {
-  padding: 5px 10px;
+  padding: 5px 13px;
   font-size: 14px;
   margin-bottom: 10px;
+  border-right: 1px dotted #6f9fb8;
+  float: left;
 }
 body.education-home section.main-content .search .search-roles ul li i {
+  color: #333;
+}
+body.education-home section.main-content .search .search-roles ul li i:first-child {
   margin-right: 5px;
 }
-body.education-home section.main-content .search .search-roles .unchecked-icon, body.education-home section.main-content .search .search-roles .checked-icon {
-  float: right;
-  margin-top: 3px;
+body.education-home section.main-content .search .search-roles ul li i:last-child {
+  margin-left: 5px;
 }
-body.education-home section.main-content .search .search-roles .checked-icon {
-  display: none;
-}
-body.education-home section.main-content .search .search-roles ul li.checked .unchecked-icon {
-  display: none;
-}
-body.education-home section.main-content .search .search-roles ul li.checked .checked-icon {
-  display: inline-block;
+body.education-home section.main-content .search .search-roles ul li:last-child {
+  border-right: none;
 }
 
 body.education-home aside h3, body.education-home aside ul, body.education-home aside figure {
@@ -630,6 +639,7 @@ body.education-home aside h3 {
 body.education-home aside ul.upcoming-training {
   margin-bottom: 15px;
   border-bottom: 1px dotted #ccc;
+  margin-right: 10px;
 }
 body.education-home aside ul.upcoming-training:after {
   content: "";
@@ -661,6 +671,7 @@ body.education-home aside ul.upcoming-training li.view-all {
   margin-top: -3px;
   margin-bottom: 5px;
   float: right;
+  margin-right: 15px;
 }
 body.education-home aside ul.upcoming-training .event-date {
   border: 1px dotted #CCCCCC;
@@ -688,7 +699,7 @@ body.education-home aside ul.upcoming-training .event-day {
 }
 body.education-home aside ul.upcoming-training .event-details {
   float: right;
-  width: 215px;
+  width: 190px;
   line-height: 1.4em;
 }
 body.education-home aside figure {
