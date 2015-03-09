@@ -31,7 +31,6 @@ body.education-home section.main-content {
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 16px;
     letter-spacing: 1px;
-    border-radius: $border-radius;
   }
 
   h2.deadline {
@@ -64,7 +63,6 @@ body.education-home section.main-content {
     margin-bottom: 60px;
     background: #c4d8e2;
     top: -5px;
-    border-radius: $border-radius;
     padding-bottom: 15px;
     @include clearfix;
 
@@ -75,7 +73,6 @@ body.education-home section.main-content {
       padding-top: 30px;
       padding-bottom: 0px;
       letter-spacing: 2px;
-      border-radius: $border-radius;
 
       a:link, a:visited, a:hover, a:active {
         color: #333;
@@ -110,12 +107,12 @@ body.education-home section.main-content {
         margin-left: 20px;
       }
 
-      a:link {
+      a:link, a:visited {
         color: #333;
       }
 
       a:hover {
-
+        color: #267196;
       }
 
       ul li {
@@ -159,6 +156,7 @@ body.education-home aside {
     margin-bottom: 15px;
     border-bottom: 1px dotted #ccc;
     margin-right: 10px;
+    padding-bottom: 5px;
     @include clearfix;
 
     a {

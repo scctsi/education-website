@@ -2,6 +2,10 @@ section.content a, section.content a:link, section.content a:visited, section.co
   color: #267196;
 }
 
+#dropline {
+  margin-bottom: 10px;
+}
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -194,11 +198,7 @@ section.sub-footer span.separator {
 aside {
   font-size: 13px;
   color: #000;
-  border: 3px solid #eee;
-  padding-bottom: 25px;
-  border-bottom: 3px solid #eee;
   margin-bottom: 15px;
-  border-radius: 0px;
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -222,6 +222,11 @@ aside h3 {
   font-size: 18px;
   font-weight: normal;
   margin-bottom: 10px;
+}
+
+body.education-home aside {
+  border: 3px solid #eee;
+  padding-bottom: 20px;
 }
 
 .checkbox {
@@ -329,7 +334,6 @@ button i {
 
 .ssslide img {
   max-width: 100%;
-  height: 135px;
   margin: 0;
   padding: 0;
   position: relative;
@@ -459,7 +463,7 @@ form.gsc-search-box td.gsc-clear-button {
   margin-top: 0px;
 }
 .course-text-search form.gsc-search-box {
-  top: 0px;
+  top: 50px;
   margin-left: -35px;
   width: 100%;
 }
@@ -498,7 +502,6 @@ body.education-home section.main-content h2 {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 16px;
   letter-spacing: 1px;
-  border-radius: 0px;
 }
 body.education-home section.main-content h2 i {
   margin-left: 5px;
@@ -553,7 +556,6 @@ body.education-home section.main-content .search {
   margin-bottom: 60px;
   background: #c4d8e2;
   top: -5px;
-  border-radius: 0px;
   padding-bottom: 15px;
 }
 body.education-home section.main-content .search:after {
@@ -568,7 +570,6 @@ body.education-home section.main-content .search h2 {
   padding-top: 30px;
   padding-bottom: 0px;
   letter-spacing: 2px;
-  border-radius: 0px;
 }
 body.education-home section.main-content .search h2 a:link, body.education-home section.main-content .search h2 a:visited, body.education-home section.main-content .search h2 a:hover, body.education-home section.main-content .search h2 a:active {
   color: #333;
@@ -607,8 +608,11 @@ body.education-home section.main-content .search .search-roles ul {
   margin-top: 95px;
   margin-left: 20px;
 }
-body.education-home section.main-content .search .search-roles a:link {
+body.education-home section.main-content .search .search-roles a:link, body.education-home section.main-content .search .search-roles a:visited {
   color: #333;
+}
+body.education-home section.main-content .search .search-roles a:hover {
+  color: #267196;
 }
 body.education-home section.main-content .search .search-roles ul li {
   padding: 5px 13px;
@@ -640,6 +644,7 @@ body.education-home aside ul.upcoming-training {
   margin-bottom: 15px;
   border-bottom: 1px dotted #ccc;
   margin-right: 10px;
+  padding-bottom: 5px;
 }
 body.education-home aside ul.upcoming-training:after {
   content: "";

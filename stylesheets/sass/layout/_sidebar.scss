@@ -1,11 +1,7 @@
 aside {
   font-size: 13px;
   color: #000;
-  border: 3px solid #eee;
-  padding-bottom: 25px;
-  border-bottom: 3px solid #eee;
   margin-bottom: 15px;
-  border-radius: $border-radius;
   @include span-columns(4);
 
   h2 {
@@ -25,4 +21,9 @@ aside {
     font-weight: normal;
     margin-bottom: 10px;
   }
+}
+
+body.education-home aside {
+  border: 3px solid #eee;
+  padding-bottom: 20px;
 }
